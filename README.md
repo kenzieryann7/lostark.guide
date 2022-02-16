@@ -1,2 +1,1 @@
-# lostark.guide
-Lost Ark Guide
+# Lost Ark Guide
