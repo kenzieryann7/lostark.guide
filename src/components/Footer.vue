@@ -1,7 +1,10 @@
 <template>
   <div class="navbar navbar-dark bg-dark text-white border-top footer">
     <div class="container-fluid">
-      <small>A Lost Ark Guide by Rynzaii</small>
+      <small
+        >A Lost Ark Guide by Rynzaii – Content information comes from the Lost
+        Ark Official Site</small
+      >
     </div>
   </div>
 </template>

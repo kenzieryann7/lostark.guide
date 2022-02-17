@@ -2,7 +2,24 @@
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
     <div class="card-header fw-bold h4">Berserker</div>
-    <div class="card-body text-start">info</div>
+    <div class="card-body text-start">
+      <div class="row">
+        <div class="col-8">
+          Berserkers are always powerful warriors, with their high-damage
+          greatsword attacks and potent defense, but when they enter their burst
+          mode, they're all but unstoppable. In this heightened state, they gain
+          increased attack and movement speed and unlock a special skill that
+          delivers a world of hurt to their enemies.
+        </div>
+        <div class="col">
+          <img
+            src="@/assets/berserker.jpeg"
+            class="img-fluid rounded shadow"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
