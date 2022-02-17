@@ -2,7 +2,23 @@
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
     <div class="card-header fw-bold h4">Wardancer</div>
-    <div class="card-body text-start">info</div>
+    <div class="card-body text-start">
+      <div class="row">
+        <div class="col-8">
+          Not merely masters of martial arts, wardancers augment their
+          lightning-quick fighting skills with elemental power. They can store
+          up elemental energy to unleash in devastating attacks and
+          gravity-defying maneuvers.
+        </div>
+        <div class="col">
+          <img
+            src="@/assets/wardancer.jpeg"
+            class="img-fluid rounded shadow"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
