@@ -1,13 +1,13 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Sharpshooter</div>
+    <div class="card-header fw-bold h4">Bard</div>
     <div class="card-body text-start">info</div>
   </div>
 </template>
 <script>
 export default {
-  name: "Sharpshooter",
+  name: "Bard",
   components: {},
   data: function () {
     return {};

@@ -106,10 +106,18 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Deathblade</a>
+                        <router-link
+                          :to="{ name: 'Deathblade' }"
+                          class="dropdown-item"
+                          >Deathblade</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Shadowhunter</a>
+                        <router-link
+                          :to="{ name: 'Shadowhunter' }"
+                          class="dropdown-item"
+                          >Shadowhunter</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -128,7 +136,11 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Gunslinger</a>
+                        <router-link
+                          :to="{ name: 'Gunslinger' }"
+                          class="dropdown-item"
+                          >Gunslinger</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -140,13 +152,25 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Artillerist</a>
+                        <router-link
+                          :to="{ name: 'Artillerist' }"
+                          class="dropdown-item"
+                          >Artillerist</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Deadeye</a>
+                        <router-link
+                          :to="{ name: 'Deadeye' }"
+                          class="dropdown-item"
+                          >Deadeye</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Sharpshooter</a>
+                        <router-link
+                          :to="{ name: 'Sharpshooter' }"
+                          class="dropdown-item"
+                          >Sharpshooter</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -165,10 +189,18 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Bard</a>
+                        <router-link
+                          :to="{ name: 'Bard' }"
+                          class="dropdown-item"
+                          >Bard</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Sorceress</a>
+                        <router-link
+                          :to="{ name: 'Sorceress' }"
+                          class="dropdown-item"
+                          >Sorceress</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -191,13 +223,25 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Scrapper</a>
+                        <router-link
+                          :to="{ name: 'Scrapper' }"
+                          class="dropdown-item"
+                          >Scrapper</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Soulfist</a>
+                        <router-link
+                          :to="{ name: 'Soulfist' }"
+                          class="dropdown-item"
+                          >Soulfist</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Wardancer</a>
+                        <router-link
+                          :to="{ name: 'Wardancer' }"
+                          class="dropdown-item"
+                          >Wardancer</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -211,7 +255,11 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Striker</a>
+                        <router-link
+                          :to="{ name: 'Striker' }"
+                          class="dropdown-item"
+                          >Striker</router-link
+                        >
                       </li>
                     </ul>
                   </li>
@@ -230,13 +278,25 @@
                       class="dropdown-menu dropdown-menu-dark dropdown-submenu"
                     >
                       <li>
-                        <a class="dropdown-item" href="#">Berserker</a>
+                        <router-link
+                          :to="{ name: 'Berserker' }"
+                          class="dropdown-item"
+                          >Berserker</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Gunlancer</a>
+                        <router-link
+                          :to="{ name: 'Gunlancer' }"
+                          class="dropdown-item"
+                          >Gunlancer</router-link
+                        >
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Paladin</a>
+                        <router-link
+                          :to="{ name: 'Paladin' }"
+                          class="dropdown-item"
+                          >Paladin</router-link
+                        >
                       </li>
                     </ul>
                   </li>
