@@ -12,11 +12,24 @@
     <div class="card-body text-start">
       <div class="row">
         <div class="col-8">
-          As the first line of defense, gunlancers take the brunt of enemy
-          attacks with their defensive stance and battlefield shield to keep the
-          rest of their party safe. While their gun lance is a formidable
-          weapon, their true value derives from their ability to protect allies
-          and absorb damage like a sponge.
+          <div class="h5 fw-bold">Lore</div>
+          <div class="mb-3 fst-italic text-muted">
+            <i class="bi h5 bi-quote"></i>
+            As the first line of defense, gunlancers take the brunt of enemy
+            attacks with their defensive stance and battlefield shield to keep
+            the rest of their party safe. While their gun lance is a formidable
+            weapon, their true value derives from their ability to protect
+            allies and absorb damage like a sponge.
+          </div>
+          <div class="mb-3">
+            Gunlancers are a subclass of the Warrior. They are considered the
+            most defensive Warrior Class specialization. Gunlancers are the
+            great at absorbing massive amounts of
+            <span class="text-info">Damage</span>, which makes them great tanks
+            for any group. However, with an increase in
+            <span class="text-info">Defense</span>, you sacrifice your mobility.
+          </div>
+          <div class="h5 fw-bold">Skills</div>
         </div>
         <div class="col">
           <img

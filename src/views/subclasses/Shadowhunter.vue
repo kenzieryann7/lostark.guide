@@ -12,10 +12,26 @@
     <div class="card-body text-start">
       <div class="row">
         <div class="col-8">
-          Shadowhunters prefer to beat the demons at their own game—they can
-          shapeshift into powerful demonic forms to unleash chaotic power. When
-          their inner demon is unleashed, shadowhunters get access to incredibly
-          destructive powers and increased health and movement speed.
+          <div class="h5 fw-bold">Lore</div>
+          <div class="mb-3 fst-italic text-muted">
+            <i class="bi h5 bi-quote"></i>
+            Shadowhunters prefer to beat the demons at their own game—they can
+            shapeshift into powerful demonic forms to unleash chaotic power.
+            When their inner demon is unleashed, shadowhunters get access to
+            incredibly destructive powers and increased health and movement
+            speed.
+          </div>
+          <div class="mb-3">
+            Shadowhunters are a subclass of the Assassin. They are most known
+            for shapeshifting into demonic forms to destory their foes. When in
+            this form, their <span class="text-info">Power</span> and
+            <span class="text-info">Damage</span> improves greatly as well as
+            their <span class="text-info">Health</span> and
+            <span class="text-info">Movement Speed</span>. Shadowhunters have
+            both melee and ranged attacks to deal damage effectively using the
+            power of Chaos.
+          </div>
+          <div class="h5 fw-bold">Skills</div>
         </div>
         <div class="col">
           <img
