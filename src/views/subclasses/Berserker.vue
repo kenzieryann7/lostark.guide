@@ -24,76 +24,15 @@
           <div class="mb-3">
             Berserkers are a subclass of the Warrior. Easily one of more
             forgiving classes for beginners as they are the most offensive with
-            great damage output. They wield Great Swords and unleash their fury
-            on their enemies. Like the other subclasses of the Warrior,
-            Berserker's damage depends on their
+            great damage output with massive AoE. They wield Great Swords and
+            unleash their fury on their enemies. Like the other subclasses of
+            the Warrior, Berserker's damage depends on their
             <span class="text-info">Strength</span>. An increase in
             <span class="text-info">Strength</span> is an increase in
             <span class="text-info">Damage</span>. Although the Berserker
             sacrifices defense for its incredible offense, it makes up for it as
             their mobility speed is greatly increased and thier use of flank
             attacks.
-          </div>
-          <div class="h5 fw-bold">Skills</div>
-          <div class="d-flex justify-content-center">
-            <span
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-html="true"
-              :title="berserkFury"
-              class="me-2"
-              ><img
-                src="@/assets/berserker-skills/berserkfury.webp"
-                class="img-fluid rounded shadow pointer"
-                alt="..."
-            /></span>
-            <span
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-html="true"
-              :title="strikeWave"
-              class="me-2"
-            >
-              <img
-                src="@/assets/berserker-skills/strikewave.webp"
-                class="img-fluid rounded shadow pointer"
-                alt="..."
-            /></span>
-            <span
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-html="true"
-              :title="whirlwind"
-              class="me-2"
-            >
-              <img
-                src="@/assets/berserker-skills/whirlwind.webp"
-                class="img-fluid rounded shadow pointer"
-                alt="..."
-            /></span>
-            <span
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-html="true"
-              :title="crimeHazard"
-              class="me-2"
-            >
-              <img
-                src="@/assets/berserker-skills/crimehazard.webp"
-                class="img-fluid rounded shadow pointer"
-                alt="..."
-            /></span>
-            <span
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-html="true"
-              :title="hellBlade"
-            >
-              <img
-                src="@/assets/berserker-skills/hellblade.webp"
-                class="img-fluid rounded shadow pointer"
-                alt="..."
-            /></span>
           </div>
         </div>
         <div class="col">
@@ -104,6 +43,230 @@
           />
         </div>
       </div>
+      <div class="h5 fw-bold">Awakening Skills</div>
+      <div class="row mb-3">
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="berserkFury"
+            src="@/assets/berserker-skills/berserkfury.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="chainOfVengeance"
+            src="@/assets/berserker-skills/chainofvengeance.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="h5 fw-bold">Skills</div>
+      <div class="row mb-3">
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="doubleSlash"
+            src="@/assets/berserker-skills/doubleslash.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="assaultBlade"
+            src="@/assets/berserker-skills/assaultblade.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="crimeHazard"
+            src="@/assets/berserker-skills/crimehazard.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/finishstrike.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/shouldercharge.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="whirlwind"
+            src="@/assets/berserker-skills/whirlwind.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/powerbreak.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/tempestslash.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="crimeHazard"
+            src="@/assets/berserker-skills/mountaincrash.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/divingslash.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/hellblade.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="whirlwind"
+            src="@/assets/berserker-skills/chainsword.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/windblade.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/maelstrom.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="strikeWave"
+            src="@/assets/berserker-skills/strikewave.jpeg"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/reddust.png"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col">
+          <img
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-html="true"
+            :title="hellBlade"
+            src="@/assets/berserker-skills/swordstorm.jpeg"
+            class="img-fluid rounded shadow pointer"
+            alt="..."
+          />
+        </div>
+        <div class="col"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -112,6 +275,9 @@ import { Tooltip } from 'bootstrap/dist/js/bootstrap.esm.min.js';
 import $ from 'jquery';
 import {
   berserkFury,
+  chainOfVengeance,
+  doubleSlash,
+  assaultBlade,
   strikeWave,
   whirlwind,
   crimeHazard,
@@ -126,6 +292,9 @@ export default {
   props: {},
   computed: {
     berserkFury,
+    chainOfVengeance,
+    assaultBlade,
+    doubleSlash,
     strikeWave,
     whirlwind,
     crimeHazard,

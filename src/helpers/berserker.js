@@ -1,5 +1,19 @@
+// AWAKENING SKILLS
 export const berserkFury = () => {
   return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Berserk Fury</div><div>Type: <span class="text-success">Charge</span></div><div class="mb-2">Available Lvl: 50</div><div class="text-info">1 Chaos Piece</div><div class="text-info">Cooldown 300s</div><div class="text-warning mb-2">Stagger: High</div>Infuse your greatsword to create Berserk Fury and deliver a powerful strike. Attack range and damage scale up with how much this skill is charged.</div>';
+};
+
+export const chainOfVengeance = () => {
+  return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Chain of Vengeance</div><div class="mb-2did">Type: <span class="text-warning">Normal</span></div><div class="text-info">Cooldown 300s</div><div class="text-warning mb-2">Stagger: High</div>Infuse your greatsword to create Berserk Fury and deliver a powerful strike. Attack range and damage scale up with how much this skill is charged.</div>';
+};
+
+// REGULAR SKILLS
+export const doubleSlash = () => {
+  return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Double Slash</div><div>Type: <span class="text-warning">Normal</span></div><div class="mb-2">Available Lvl: 10</div><div class="text-info">MP 45 Consumption</div><div class="text-info">Cooldown 6s</div><div class="text-warning mb-2">Attack Type: Basic Attack</div>Allows players to swing the greatsword in the shape of an X, inflicting damage.</div>';
+};
+
+export const assaultBlade = () => {
+  return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Assault Blade</div><div>Type: <span class="text-warning">Normal</span></div><div class="mb-2">Available Lvl: 10</div><div class="text-info">MP 41 Consumption</div><div class="text-info">Cooldown 5s</div><div class="text-warning mb-2">Attack Type: Basic Attack</div>Allows players to perform a diagonal slash to inflict Damage.</div>';
 };
 
 export const strikeWave = () => {
