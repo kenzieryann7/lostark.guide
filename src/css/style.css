@@ -43,36 +43,10 @@ a {
   max-width: 18rem;
 }
 
-/* PROFESSION TOOLTIPS */
-[info-tooltip]:before {
-  /* needed - do not touch */
-
-  z-index: 1000;
-  white-space: pre-line;
-  content: attr(info-tooltip);
-  position: absolute;
-  opacity: 0;
-
-  /* customizable */
-  transition: all 0.15s ease;
-  padding: 10px;
-  color: white;
-  font-size: 12.5px;
-  border: 2px solid #0dcaf0;
-  border-radius: 10px;
+.pointer {
+  cursor: pointer;
 }
 
-[info-tooltip]:hover:before {
-  /* needed - do not touch */
-  opacity: 1;
-  /* customizable */
-  background: black;
-  margin-top: 70px;
-  margin-left: 30px;
-  max-width: 15rem;
-  padding: 10px;
-}
-
-[info-tooltip]:not([info-tooltip-persistent]):before {
-  pointer-events: none;
+.tool-title {
+  font-size: 16px;
 }

@@ -17,32 +17,50 @@
           delivers a world of hurt to their enemies.</div>
           <div class="h5 fw-bold">Skills</div>
           <div class="d-flex justify-content-center">
-            <span :info-tooltip="'Berserk Fury\nConcentrate energy on your greatsword and release it forward, cleaving the ground. This skill can be charged to inflict more damage.'"><img
+            <span data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-html="true"
+                :title="berserkFury"><img
             src="@/assets/berserker-skills/berserkfury.webp"
-            class="img-fluid rounded me-3 shadow"
+            class="img-fluid rounded me-3 shadow pointer"
             alt="..."
           /></span>
-          <span :info-tooltip="'no'">
+          <span data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-html="true"
+                :title="strikeWave">
             <img
             src="@/assets/berserker-skills/strikewave.webp"
-            class="img-fluid rounded me-3 shadow"
+            class="img-fluid rounded me-3 shadow pointer"
             alt="..."
           /></span>
+          <span data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-html="true"
+                :title="whirlwind">
           <img
             src="@/assets/berserker-skills/whirlwind.webp"
-            class="img-fluid rounded me-3 shadow"
+            class="img-fluid rounded me-3 shadow pointer"
             alt="..."
-          />
+          /></span>
+          <span data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-html="true"
+                :title="crimeHazard">
           <img
             src="@/assets/berserker-skills/crimehazard.webp"
-            class="img-fluid rounded me-3 shadow"
+            class="img-fluid rounded me-3 shadow pointer"
             alt="..."
-          />
+          /></span>
+          <span data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-html="true"
+                :title="hellBlade">
           <img
             src="@/assets/berserker-skills/hellblade.webp"
-            class="img-fluid rounded me-3 shadow"
+            class="img-fluid rounded me-3 shadow pointer"
             alt="..."
-          />
+          /></span>
           </div>
         </div>
         <div class="col">
@@ -57,6 +75,9 @@
   </div>
 </template>
 <script>
+import { Tooltip } from "bootstrap/dist/js/bootstrap.esm.min.js";
+import $ from "jquery";
+import {berserkFury, strikeWave, whirlwind, crimeHazard, hellBlade} from '@/helpers/berserker.js';
 export default {
   name: "Berserker",
   components: {},
@@ -64,8 +85,26 @@ export default {
     return {};
   },
   props: {},
-  computed: {},
-  methods: {}
+  computed: {
+    berserkFury,
+    strikeWave,
+    whirlwind,
+    crimeHazard,
+    hellBlade
+  },
+  methods: {
+    readyTooltip() {
+      this.$nextTick(() => {
+        $('[data-bs-toggle="tooltip"]').tooltip();
+      });
+    },
+  },
+  mounted() {
+    //inti tooltip
+    Array.from(document.querySelectorAll('[data-bs-toggle="tooltip"]')).forEach(
+      (tooltipNode) => new Tooltip(tooltipNode)
+    );
+  }
 };
 </script>
 
