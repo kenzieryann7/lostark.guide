@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "label": "Where can I purchase the game?",
+        "answer": "Lost Ark is free-to-play and downloadable on Steam. Note that there are in-game purchases available."
+    },
+    {
+        "id": 2,
+        "label": "What console/system is the game available on?",
+        "answer": "Lost Ark is only availble on PC."
+    },
+    {
+        "id": 3,
+        "label": "Who is the developer, Smilegate RPG?",
+        "answer": "Smilegate is a South Korean video game developer and publisher, which develops, publishes and services mobile and PC online games. It has five core business sectors: game development, publishing, platform, investment and social contribution. Established in Korea in 2002, it is the creator of CrossFire, an FPS game with over six million concurrent players across the globe,and many more distinguished titles."
+    }
+]
