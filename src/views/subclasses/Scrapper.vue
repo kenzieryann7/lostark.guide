@@ -1,7 +1,14 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Scrapper</div>
+    <div class="card-header fw-bold h4">
+      Scrapper
+      <img
+        src="@/assets/class-icons/scrapper-icon.webp"
+        class="img-fluid rounded"
+        alt="..."
+      />
+    </div>
     <div class="card-body text-start">
       <div class="row">
         <div class="col-8">
@@ -23,14 +30,14 @@
 </template>
 <script>
 export default {
-  name: "Scrapper",
+  name: 'Scrapper',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 

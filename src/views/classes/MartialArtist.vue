@@ -9,72 +9,111 @@
       </div>
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <div class="card class-card bg-dark  shadow">
+          <div class="card class-card bg-dark shadow">
             <img
               src="@/assets/subclasses/striker.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
             <div class="card-body text-center">
-              <h5 class="card-title text-center">Striker <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
-</svg></h5>
-
-              <a href="#" class="btn btn-primary"
-                ><router-link :to="{ name: 'Striker' }">View</router-link></a
+              <div class="mb-2">
+                <img
+                  src="@/assets/class-icons/striker-icon.webp"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="card-title text-center fw-bold h5 mb-0">Striker</div>
+              <div class="text-muted"><small>MELEE</small></div>
+            </div>
+            <div class="card-footer text-center">
+              <router-link :to="{ name: 'Striker' }"
+                ><button type="button" class="btn fw-bold btn-info">
+                  View
+                </button></router-link
               >
             </div>
           </div>
         </div>
         <div class="col d-flex justify-content-center">
-          <div class="card class-card bg-dark  shadow">
+          <div class="card class-card bg-dark shadow">
             <img
               src="@/assets/subclasses/scrapper.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
             <div class="card-body text-center">
-              <h5 class="card-title text-center">Scrapper <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"/>
-</svg></h5>
-              <a href="#" class="btn btn-primary"
-                ><router-link :to="{ name: 'Scrapper' }">View</router-link></a
+              <div class="mb-2">
+                <img
+                  src="@/assets/class-icons/scrapper-icon.webp"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="card-title text-center fw-bold h5 mb-0">Scrapper</div>
+              <div class="text-muted"><small>MELEE</small></div>
+            </div>
+            <div class="card-footer text-center">
+              <router-link :to="{ name: 'Scrapper' }"
+                ><button type="button" class="btn fw-bold btn-info">
+                  View
+                </button></router-link
               >
             </div>
           </div>
         </div>
         <div class="col d-flex justify-content-center">
-          <div class="card class-card bg-dark  shadow">
+          <div class="card class-card bg-dark shadow">
             <img
               src="@/assets/subclasses/soulfist.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
             <div class="card-body text-center">
-              <h5 class="card-title text-center">Soulfist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"/>
-</svg></h5>
-
-              <a href="#" class="btn btn-primary"
-                ><router-link :to="{ name: 'Soulfist' }">View</router-link></a
+              <div class="mb-2">
+                <img
+                  src="@/assets/class-icons/soulfist-icon.webp"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="card-title text-center fw-bold h5 mb-0">Soulfist</div>
+              <div class="text-muted"><small>MELEE</small></div>
+            </div>
+            <div class="card-footer text-center">
+              <router-link :to="{ name: 'Soulfist' }"
+                ><button type="button" class="btn fw-bold btn-info">
+                  View
+                </button></router-link
               >
             </div>
           </div>
         </div>
         <div class="col d-flex justify-content-center">
-          <div class="card class-card bg-dark  shadow">
+          <div class="card class-card bg-dark shadow">
             <img
               src="@/assets/subclasses/wardancer.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
             <div class="card-body text-center">
-              <h5 class="card-title text-center">Wardancer <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"/>
-</svg></h5>
-
-              <a href="#" class="btn btn-primary"
-                ><router-link :to="{ name: 'Wardancer' }">View</router-link></a
+              <div class="mb-2">
+                <img
+                  src="@/assets/class-icons/wardancer-icon.webp"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="card-title text-center fw-bold h5 mb-0">
+                Wardancer
+              </div>
+              <div class="text-muted"><small>MELEE</small></div>
+            </div>
+            <div class="card-footer text-center">
+              <router-link :to="{ name: 'Wardancer' }"
+                ><button type="button" class="btn fw-bold btn-info">
+                  View
+                </button></router-link
               >
             </div>
           </div>
@@ -85,14 +124,14 @@
 </template>
 <script>
 export default {
-  name: "MartialArtist",
+  name: 'MartialArtist',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 

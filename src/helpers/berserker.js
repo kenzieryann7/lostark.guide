@@ -3,7 +3,7 @@ export const berserkFury = () => {
   };
 
   export const strikeWave = () => {
-    return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Strike Wave</div><div>Type: <span class="text-success">Charge</span></div><div class="mb-2">Available Lvl: 32</div><div class="text-info">MP 127 Consumption</div><div class="text-info">Cooldown 36s</div><div class="text-warning mb-2">Stagger: Mid-High</div>Concentrate energy on your greatsword and release it forward, cleaving the ground. This skill can be charged to inflict more damage.</div>';
+    return '<div class="tooltip-inner shadow text-start text-white"><div class="fw-bold tool-title">Strike Wave</div><div>Type: <span class="text-success">Charge</span></div><div class="mb-2">Available Lvl: 32</div><div class="text-info">MP 127 Consumption</div><div class="text-info">Cooldown 36s</div><div class="text-warning mb-2">Stagger: Mid-Hcigh</div>Concentrate energy on your greatsword and release it forward, cleaving the ground. This skill can be charged to inflict more damage.</div>';
   };
 
   export const whirlwind = () => {

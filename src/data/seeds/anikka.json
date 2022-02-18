@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "label": "Port City Changhun",
+        "seeds": 4,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Moonmist Manor",
+        "seeds": 10,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Rattan Hill",
+        "seeds": 9,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "label": "Delphi Township",
+        "seeds": 4,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "Prisma Valley",
+        "seeds": 7,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "label": "Yeon's Barrier",
+        "seeds": 7,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "label": "Melody Forest",
+        "seeds": 8,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "label": "Jeok's Barrier",
+        "seeds": 7,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "label": "Twilight Mist",
+        "seeds": 10,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "label": "Bleak Edge",
+        "seeds": 5,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    }
+]

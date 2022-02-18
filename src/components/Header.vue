@@ -367,6 +367,13 @@
                 <a class="dropdown-item" href="#">World Map</a>
               </li>
               <li>
+                <router-link
+                          :to="{ name: 'MokokoSeeds' }"
+                          class="dropdown-item"
+                          >Mokoko Seeds</router-link
+                        >
+              </li>
+              <li>
                 <a class="dropdown-item" href="#">Bosses</a>
               </li>
               <li>

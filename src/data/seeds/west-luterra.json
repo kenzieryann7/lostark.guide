@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "label": "Brilliant Ridge",
+        "seeds": 7,
+        "type": "Dungeon",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko seed is resting between a tree and some large rocks."
+            },
+            {
+                "id": 4,
+                "description": "3 Mokoko Seeds can be found after defeating the crab boss. Near the burning blazer is a rock wall, you should be able to walk right through it to the end, then you will see the 3 seeds."
+            },
+            {
+                "id": 5,
+                "description": "The last Mokoko seed can be found here near some rocks on the left."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Lakebar",
+        "seeds": 11,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Mount Zagoras",
+        "seeds": 12,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "label": "Medrick Monastery",
+        "seeds": 13,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "Bilbrin Forest",
+        "seeds": 9,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "label": "Battlebound Plains",
+        "seeds": 7,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "label": "Gray Hammer Mine",
+        "seeds": 12,
+        "type": "Dungeon",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    }
+]

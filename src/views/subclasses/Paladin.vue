@@ -1,7 +1,14 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Paladin</div>
+    <div class="card-header fw-bold h4">
+      Paladin
+      <img
+        src="@/assets/class-icons/paladin-icon.webp"
+        class="img-fluid rounded"
+        alt="..."
+      />
+    </div>
     <div class="card-body text-start">
       <div class="row">
         <div class="col-8">
@@ -24,14 +31,14 @@
 </template>
 <script>
 export default {
-  name: "Paladin",
+  name: 'Paladin',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 
