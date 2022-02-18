@@ -12,7 +12,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/scrapper.jpeg"
+            src="@/assets/subclasses/scrapper.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />

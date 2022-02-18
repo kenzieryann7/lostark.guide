@@ -13,7 +13,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark shadow">
             <img
-              src="@/assets/berserker.jpeg"
+              src="@/assets/subclasses/berserker.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -31,7 +31,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark shadow">
             <img
-              src="@/assets/gunlancer.jpeg"
+              src="@/assets/subclasses/gunlancer.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -48,7 +48,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark shadow">
             <img
-              src="@/assets/paladin.jpeg"
+              src="@/assets/subclasses/paladin.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />

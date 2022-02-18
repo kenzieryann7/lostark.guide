@@ -4,13 +4,13 @@
     <div class="card-header fw-bold h4">Gunner</div>
     <div class="card-body text-start">
       <div class="mb-3">
-        Whether wielding high-tech weapons or bows and arrows that never jam, keep an eagle eye on these sharpshooters or they may even hit you with their worst shot.g
+        Whether wielding high-tech weapons or bows and arrows that never jam, keep an eagle eye on these sharpshooters or they may even hit you with their worst shot.
       </div>
       <div class="row">
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/gunslinger.jpeg"
+              src="@/assets/subclasses/gunslinger.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -28,7 +28,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/artillerist.jpeg"
+              src="@/assets/subclasses/artillerist.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -45,7 +45,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/deadeye.jpeg"
+              src="@/assets/subclasses/deadeye.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -63,7 +63,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/sharpshooter.jpeg"
+              src="@/assets/subclasses/sharpshooter.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />

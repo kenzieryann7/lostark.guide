@@ -12,7 +12,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/deathblade.jpeg"
+            src="@/assets/subclasses/deathblade.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />

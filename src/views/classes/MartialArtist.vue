@@ -11,7 +11,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/striker.jpeg"
+              src="@/assets/subclasses/striker.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -29,7 +29,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/scrapper.jpeg"
+              src="@/assets/subclasses/scrapper.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -46,7 +46,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/soulfist.jpeg"
+              src="@/assets/subclasses/soulfist.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -64,7 +64,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/wardancer.jpeg"
+              src="@/assets/subclasses/wardancer.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />

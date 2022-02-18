@@ -12,7 +12,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/striker.jpeg"
+            src="@/assets/subclasses/striker.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />

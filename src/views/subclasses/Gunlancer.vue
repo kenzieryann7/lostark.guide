@@ -13,7 +13,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/gunlancer.jpeg"
+            src="@/assets/subclasses/gunlancer.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />

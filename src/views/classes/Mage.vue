@@ -13,7 +13,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/bard.jpeg"
+              src="@/assets/subclasses/bard.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -31,7 +31,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/sorceress.jpeg"
+              src="@/assets/subclasses/sorceress.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />

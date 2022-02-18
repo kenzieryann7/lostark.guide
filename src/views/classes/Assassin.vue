@@ -14,7 +14,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/deathblade.jpeg"
+              src="@/assets/subclasses/deathblade.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />
@@ -32,7 +32,7 @@
         <div class="col d-flex justify-content-center">
           <div class="card class-card bg-dark  shadow">
             <img
-              src="@/assets/shadowhunter.jpeg"
+              src="@/assets/subclasses/shadowhunter.jpeg"
               class="card-img-top img-fluid"
               alt="..."
             />

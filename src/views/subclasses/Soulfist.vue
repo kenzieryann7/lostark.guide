@@ -12,7 +12,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/soulfist.jpeg"
+            src="@/assets/subclasses/soulfist.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />
