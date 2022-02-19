@@ -1,0 +1,207 @@
+[
+    {
+        "id": 1,
+        "label": "Luterra Castle",
+        "seeds": 10,
+        "type": "City",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko seed is resting between a tree and some large rocks."
+            },
+            {
+                "id": 4,
+                "description": "3 Mokoko Seeds can be found after defeating the crab boss. Near the burning blazer is a rock wall, you should be able to walk right through it to the end, then you will see the 3 seeds."
+            },
+            {
+                "id": 5,
+                "description": "The last Mokoko seed can be found here near some rocks on the left."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Dyorika Plains",
+        "seeds": 11,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Sunbright Hill",
+        "seeds": 10,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "label": "Lastra Forest",
+        "seeds": 7,
+        "type": "Dungeon",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "King's Tomb",
+        "seeds": 3,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "label": "Flowering Orchard",
+        "seeds": 10,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "label": "Blackrose Chapel",
+        "seeds": 13,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "label": "Leyar Terrace",
+        "seeds": 8,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "label": "Borea's Domain",
+        "seeds": 11,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "label": "Croconys Seashore",
+        "seeds": 18,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "label": "Wavestrand Port",
+        "seeds": 6,
+        "type": "Town",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "label": "Stormcry Grotto",
+        "seeds": 12,
+        "type": "Dungeon",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    }
+]

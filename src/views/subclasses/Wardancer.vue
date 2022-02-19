@@ -1,7 +1,14 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Wardancer</div>
+    <div class="card-header fw-bold h4">
+      Wardancer
+      <img
+        src="@/assets/class-icons/wardancer-icon.webp"
+        class="img-fluid rounded"
+        alt="..."
+      />
+    </div>
     <div class="card-body text-start">
       <div class="row">
         <div class="col-8">
@@ -12,7 +19,7 @@
         </div>
         <div class="col">
           <img
-            src="@/assets/wardancer.jpeg"
+            src="@/assets/subclasses/wardancer.jpeg"
             class="img-fluid rounded shadow"
             alt="..."
           />
@@ -23,14 +30,14 @@
 </template>
 <script>
 export default {
-  name: "Wardancer",
+  name: 'Wardancer',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 

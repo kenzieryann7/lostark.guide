@@ -1,20 +1,27 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Artillerist</div>
+    <div class="card-header fw-bold h4">
+      Artillerist
+      <img
+        src="@/assets/class-icons/artillerist-icon.webp"
+        class="img-fluid rounded"
+        alt="..."
+      />
+    </div>
     <div class="card-body text-start">info</div>
   </div>
 </template>
 <script>
 export default {
-  name: "Artillerist",
+  name: 'Artillerist',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 

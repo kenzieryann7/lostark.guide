@@ -42,3 +42,11 @@ a {
 .class-card {
   max-width: 18rem;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.tool-title {
+  font-size: 16px;
+}

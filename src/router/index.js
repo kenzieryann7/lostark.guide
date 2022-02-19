@@ -39,6 +39,10 @@ import Striker from "../views/subclasses/Striker.vue";
 import Berserker from "../views/subclasses/Berserker.vue";
 import Gunlancer from "../views/subclasses/Gunlancer.vue";
 import Paladin from "../views/subclasses/Paladin.vue";
+
+// WORLD
+import MokokoSeeds from "../views/world/MokokoSeeds.vue";
+
 const routes = [
   {
     path: "/", // routes should be lowercase
@@ -191,6 +195,12 @@ const routes = [
     path: "/classes/warrior/paladin", // routes should be lowercase
     name: "Paladin",
     component: Paladin
+  },
+  // WORLD
+  {
+    path: "/classes/world/mokoko-seeds", // routes should be lowercase
+    name: "MokokoSeeds",
+    component: MokokoSeeds
   }
 ];
 

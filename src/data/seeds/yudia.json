@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "label": "Saland Hill",
+        "seeds": 8,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Morai Ruins",
+        "seeds": 11,
+        "type": "Dungeon",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Ozhorn Hill",
+        "seeds": 8,
+        "type": "Region",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "Sapira Cave",
+        "seeds": 9,
+        "type": "Dungeon",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            }
+        ]
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "label": "Brilliant Ridge",
+        "seeds": 7,
+        "type": "Dungeon",
+        "map": "brilliantRidge.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko seed is resting between a tree and some large rocks."
+            },
+            {
+                "id": 4,
+                "description": "3 Mokoko Seeds can be found after defeating the crab boss. Near the burning blazer is a rock wall, you should be able to walk right through it to the end, then you will see the 3 seeds."
+            },
+            {
+                "id": 5,
+                "description": "The last Mokoko seed can be found here near some rocks on the left."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "label": "Lakebar",
+        "seeds": 11,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "label": "Mount Zagoras",
+        "seeds": 12,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "label": "Medrick Monastery",
+        "seeds": 13,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "Bilbrin Forest",
+        "seeds": 9,
+        "type": "Region",
+        "map": "bilbrinForest.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko seed is hidden behind a pine tree near a pile of wooden boxes and a broken down caravan."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko Seed is hidden in a patch of flowers, left of the tree stump."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed is hidden in a patch of flowers near the boulders."
+            },
+            {
+                "id": 4,
+                "description": "This one is located east of the last seed near the water. You will see it hidden in some brush."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed is located in the far left corner of the path, behind a brick wall’s pillar in the tree."
+            },
+            {
+                "id": 6,
+                "description": "This seed is located under a tree on the left side of the path."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed is located under a tree on the left side of the path near the wooden spiked fence."
+            },
+            {
+                "id": 8,
+                "description": "This one is located behind the Triport, in front of some wooden crates."
+            },
+            {
+                "id": 9,
+                "description": "The last Mokoko Seed is located on the left side of the path, in the corner between a large tree and a wooden spiked fence."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "label": "Battlebound Plains",
+        "seeds": 7,
+        "type": "Region",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko seed is in a patch of grass near the path."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "label": "Grayhammer Mine",
+        "seeds": 12,
+        "type": "Dungeon",
+        "map": "grayhammerMine.png",
+        "instructions": [
+            {
+                "id": 1,
+                "description": "The first Mokoko Seed is located a little after getting off the elevator. Towards the right side of the path near the wooden wall."
+            },
+            {
+                "id": 2,
+                "description": "This one is located west of the last one through a hidden passage.  Once in, it will be immediately on your left in some brush. You will see an altar and water leading to a stone platform, we will come back for this seed later."
+            },
+            {
+                "id": 3,
+                "description": "You will be able to go through the wall on the right side of the path, there is a seed to the left of the altar and a seed behind the altar, both hidden in a patch of grass. Make sure to grab the firefly lantern from the altar before leaving the area."
+            },
+            {
+                "id": 4,
+                "description": "Now go back to where we found the second Mokoko seed. Put the firefly lantern on the altar, then you will see a path appear to get over the water to the next seed."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed is near one of the glowing pillars you destroy near a burning blazer."
+            },
+            {
+                "id": 6,
+                "description": "This one is located to the right of the minecart. Make sure to grab it before getting in the cart because there is no way back up! You would have to start from the beginning again."
+            },
+            {
+                "id": 7,
+                "description": "Right after exiting the minecart, behind you should be another Mokoko Seed on the ground."
+            },
+            {
+                "id": 8,
+                "description": "This Mokoko Seed is located behind a breakable cage, just attack it to destroy it so you can get behind it."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed is hidden by some barrels. Destroy them to get access to the seed."
+            },
+            {
+                "id": 10,
+                "description": "This next Mokoko Seed is located a little further down the path than the previous seed, and to the right of the path."
+            },
+            {
+                "id": 11,
+                "description": "The last Mokoko Seed is at the very top of the path, in a wooden doorway."
+            }
+        ]
+    }
+]

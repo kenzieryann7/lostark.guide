@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 export default {
@@ -18,7 +19,8 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+  
 };
 </script>
 
@@ -29,5 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
+  font-size: 14px;
 }
 </style>

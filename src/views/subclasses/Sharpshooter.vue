@@ -1,20 +1,27 @@
 <template>
   <!-- HEAD CARD -->
   <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Sharpshooter</div>
+    <div class="card-header fw-bold h4">
+      Sharpshooter
+      <img
+        src="@/assets/class-icons/sharpshooter-icon.webp"
+        class="img-fluid rounded"
+        alt="..."
+      />
+    </div>
     <div class="card-body text-start">info</div>
   </div>
 </template>
 <script>
 export default {
-  name: "Sharpshooter",
+  name: 'Sharpshooter',
   components: {},
   data: function () {
     return {};
   },
   props: {},
   computed: {},
-  methods: {}
+  methods: {},
 };
 </script>
 
