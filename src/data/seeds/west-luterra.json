@@ -52,11 +52,7 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
-            },
-            {
-                "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": ""
             }
         ]
     },
@@ -134,6 +130,26 @@
             {
                 "id": 2,
                 "description": "This Mokoko seed is in a patch of grass near the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko seed is hidden in a bush to the right of the large metal structure."
+            },
+            {
+                "id": 4,
+                "description": "You can find this seed behind some pine trees and to the left of a stone structure with runes on it."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed is located to the right of the tree stumps, near the pine trees."
+            },
+            {
+                "id": 6,
+                "description": "This seed is located up the stairs in the top right."
+            },
+            {
+                "id": 7,
+                "description": "The last Mokoko Seed is located in the far right corner between the wooden barracade and some pine trees."
             }
         ]
     },

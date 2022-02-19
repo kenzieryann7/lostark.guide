@@ -62,11 +62,31 @@
         "label": "Toxiclaw Cavern",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "toxiclawCavern.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located on the ground near left of the path next to a broken down caravan."
+            },
+            {
+                "id": 2,
+                "description": "This seed is on the ground behind the large rock."
+            },
+            {
+                "id": 3,
+                "description": "This next seed is directly above from the last seed. You will see it on the ground in front of a boulder."
+            },
+            {
+                "id": 4,
+                "description": "This seed is located on the ground past the campfire and in front of the wooden rack holding hide."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko seed is located to the left of some paintings on the ground in some grass."
+            },
+            {
+                "id": 6,
+                "description": "The last Mokoko Seed can be found in some brush to the left of the path near the wooden stilt structure."
             }
         ]
     },
@@ -104,11 +124,31 @@
         "label": "Aquilok's Head",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "aquiloksHead.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "There are two Mokoko Seeds at this location. You will see a lever to the left of the path. Activate it and you will see a boulder roll away and leave an opening. Jump down and stay to the right. You will need to fight the boss thats there and then to the right in front of a rock you will see the first seed in a patch of grass."
+            },
+            {
+                "id": 2,
+                "description": "Continuing on from the last seed, if you continue upwards you will come across a rock arch. Go under it and on the ground next to the cliff will be the second seed."
+            },
+            {
+                "id": 3,
+                "description": "This seed is located at the end of the path here, hidden in some grass on the ground."
+            },
+            {
+                "id": 4,
+                "description": "You will find this Mokoko Seed on the ground left of the path near some skeletal remains."
+            },
+            {
+                "id": 5,
+                "description": "The last two Mokoko Seeds are located here. After defeating the boss, go up and to the left and you will see a rock wall you can break. Once through, you will find another enemy to kill. The first seed is in the grass to the left."
+            },
+            {
+                "id": 6,
+                "description": "Contuining on from the last seed, this Mokoko Seed can be found in the grass to the right of the previous seed."
             }
         ]
     },
@@ -166,11 +206,31 @@
         "label": "Aquilok's Tail",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "aquiloksTail.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first two Mokoko Seeds are located at the end of this path into a cave. You will see skeletal ribs sticking out, you can walk right under it going through the wall. The first seed will be immediately on your right on the ground."
+            },
+            {
+                "id": 2,
+                "description": "Continuing from the last seed, this one is located a little further on the ground."
+            },
+            {
+                "id": 3,
+                "description": "Two more Mokoko Seeds can be found at this location. Once get up to the next level, take an immediate left and kill the boss you see. Down to the right near some abstract rock pillars, you will see the first seed hidden in some grass."
+            },
+            {
+                "id": 4,
+                "description": "Continuing on from the last seed, go to the upper left where you will find the second seed in a bush next to a boulder."
+            },
+            {
+                "id": 5,
+                "description": "You will find this seed behind some large eggs you are suppose to destroy for the quest. It is hidden in a bush near the crystals."
+            },
+            {
+                "id": 6,
+                "description": "The last Mokoko Seed is to the left of the map after you kill the final boss. It will be hidden in a bush under a rock ledge with some small crystals on it."
             }
         ]
     }
