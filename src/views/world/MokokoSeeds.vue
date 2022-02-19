@@ -297,7 +297,7 @@
     aria-labelledby="exampleModalLabel"
     aria-hidden="true"
   >
-    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
       <div class="modal-content bg-dark">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">
@@ -329,7 +329,7 @@
                 />
               </div>
               <div class="col text-start">
-                <ul>
+                <ol>
                   <li
                     class="mb-3"
                     v-for="place in selectedLocation?.instructions"
@@ -337,7 +337,7 @@
                   >
                     {{ place.description }}
                   </li>
-                </ul>
+                </ol>
               </div>
             </div>
           </div>

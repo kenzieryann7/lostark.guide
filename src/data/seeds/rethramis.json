@@ -43,11 +43,27 @@
         "label": "Ankumo Mountains",
         "seeds": 5,
         "type": "Region",
-        "map": "brilliantRidge.png",
+        "map": "ankumoMountain.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko seed is located against stone wall ruins between two pillars."
+            },
+            {
+                "id": 2,
+                "description": "This seed is located right of the swamp-like pond and in front of the burning blazer."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed is located on the ground in plain sight, near a patch of grass but not hidden in it."
+            },
+            {
+                "id": 4,
+                "description": "This seed is located in the Border Watch camp to the right where the sick soldiers are. In the brush in the top left."
+            },
+            {
+                "id": 5,
+                "description": "The last Mokoko Seed is located behind the fence but in front of the watchtower. To get behind the fence, go towards the right side and you should be able to squeeze between the fence post and the rock."
             }
         ]
     },
