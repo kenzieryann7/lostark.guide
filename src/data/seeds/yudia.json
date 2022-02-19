@@ -8,20 +8,92 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located behind a big boulder with a dead tree against it."
+            },
+            {
+                "id": 2,
+                "description": "This Mokoko Seed is located in the middle of the path here, hidden in a patch of grass."
+            },
+            {
+                "id": 3,
+                "description": "This seed is located in front of some wooden crates."
+            },
+            {
+                "id": 4,
+                "description": "To get to this Mokoko Seed, you will have to navigate with the blue arrows on your map to get there. You will need to go to the yellow glowing circles to keep moving forward. The seed will be on the ground on the wooden platform, in front of some wooden barrels and a weapons rack."
+            },
+            {
+                "id": 5,
+                "description": "This seed is located to the right of the stone rock with runes on it, hidden in a patch of grass."
+            },
+            {
+                "id": 6,
+                "description": "This seed is located at Nomad Camp, under a white cloth tarp to the right of Yuti, the Storage Keep."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed is located in a nook of rocks, to the right of the large tree and the tree stump."
+            },
+            {
+                "id": 8,
+                "description": "This seed is located behind the cage near the rocky hillside. It will be behind a group of mobs you need to defeat before you can get it."
+            },
+            {
+                "id": 9,
+                "description": "The last Mokoko Seed is located on the edge of a bank where there is water and geysers hidden in some brush."
             }
         ]
     },
     {
         "id": 2,
         "label": "Morai Ruins",
-        "seeds": 11,
+        "seeds": 8,
         "type": "Dungeon",
         "map": "brilliantRidge.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located on a wooden platform. Go to the edge of the path and you will see a glowing yellow circle indicating you can jump. You will jump up onto the platform and be met with some enemies. Kill them, then go to the left of the hut to the back, you will see the seed on the ground."
+            },
+            {
+                "id": 2,
+                "description": "Go towards the left of the path here and you will come up on some enemies. Kill them and then you should see a glowing yellow circle indicating you can jump up. You will jump up onto a wooden platform where you will the Mokoko Seed."
+            },
+            {
+                "id": 3,
+                "description": "Two Mokoko Seeds can be found at this location. You will see a fallen down pillar, you can walk down it. Kill the enemies that appear, and then you will see the glowing yellow circle indicating to walk across the vine. At the end on the stone platform you will see the first seed on the ground to the left."
+            },
+            {
+                "id": 4,
+                "description": "Continuing on from the previous seed, this next seed can be seen up to the right from the last seed."
+            },
+            {
+                "id": 5,
+                "description": "At this location you can find two seeds. To get them, you will see a breakable door on the left side of the path. Once in, you will see one seed on the ground to the left."
+            },
+            {
+                "id": 6,
+                "description": "Continuing from the last seed, to the right you will see the second seed."
+            },
+            {
+                "id": 7,
+                "description": "This seed is also behind a breakable door. You will see it on the top part of the path. Once you destroy it, you will have to jump down. The seed will be on the ground to the right."
+            },
+            {
+                "id": 8,
+                "description": "There are two seeds in this location. You will see a fallen pillar to the left of the path, you can go down it. The first seed is straight ahead to the right side of the pillar."
+            },
+            {
+                "id": 9,
+                "description": "Continuing on from the last seed, go to the right and you should see the second seed on the ground."
+            },
+            {
+                "id": 10,
+                "description": "The last two seeds are at this location. You will see a fallen down pillar to the right of the path, go down it then up. You will come right up on the first seed."
+            },
+            {
+                "id": 11,
+                "description": "Continuing on from the last seed, go to the right near the tree and you should see the second seed on the ground."
             }
         ]
     },
@@ -34,20 +106,80 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located inside a wooden crate to the left of the broken down caravan."
+            },
+            {
+                "id": 2,
+                "description": "This seed is located in a patch of grass in the corner of a stone pillar and a small rubble stone wall protruding from it."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed is located in between some pottery. Go down the staircase to the bottom and you will see a some pottery towards the right."
+            },
+            {
+                "id": 4,
+                "description": "This seed is located on a rocky ledge, towards the right side of the path."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed is located in an enemy camp near some broken pottery."
+            },
+            {
+                "id": 6,
+                "description": "This seed is located in a corpse camp towards the far right side. You will see it on the ground against a fence."
+            },
+            {
+                "id": 7,
+                "description": "The one is located in a small bush between a broken down caravan and a a wooden watchtower."
+            },
+            {
+                "id": 8,
+                "description": "This last Mokoko Seed can be found behind a wooden caravan near a few horses."
             }
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "label": "Sapira Cave",
-        "seeds": 9,
+        "seeds": 8,
         "type": "Dungeon",
         "map": "brilliantRidge.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found at the edge of the cliff on the left, partially in the ground. Make sure you grab this one first! As you cannot go back after sliding down the hill."
+            },
+            {
+                "id": 2,
+                "description": "This seed is to the left under the burning torch from where you landed after sliding down the hill."
+            },
+            {
+                "id": 3,
+                "description": "There will be 2 seeds in this area. There will be lever to the right that you need to active, you will see it lights up one of the blazers to the left. Now go left and toward the bottom, you will see a second lever. Then go back to the two blazers and you should be able to walk between them. One seed will be on the ground to the right."
+            },
+            {
+                "id": 4,
+                "description": "Continuing on from the previous seed, you will see this seed directly across to the left."
+            },
+            {
+                "id": 5,
+                "description": "This seed will be down the path to the left, after killing the boss that stands in front of it, you will see it on the ground under the light."
+            },
+            {
+                "id": 6,
+                "description": "This seed is to the right of the path, adjacent from the last seed. It is in the water to the right of the wooden crates."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed is hidden in a bush to the top right of the stone seal on the ground."
+            },
+            {
+                "id": 8,
+                "description": "These last two seeds are in the same area. You will notice a cave entrance to the left of the path, but this is not where you will enter. Go to the left of the entrance to the plain rock wall and walk through it. You will see on seed on the ground to the right."
+            },
+            {
+                "id": 9,
+                "description": "Continuing on from the previous seed, this one is on the ground to the left of the last seed."
             }
         ]
     }
