@@ -4,11 +4,43 @@
         "label": "Prideholme",
         "seeds": 9,
         "type": "Town",
-        "map": "brilliantRidge.png",
+        "map": "prideholm.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located behind a planted tree on the right side of the staircase closest to the Triport."
+            },
+            {
+                "id": 2,
+                "description": "The next Mokoko Seed is near the big lion statue towards the middle of the map."
+            },
+            {
+                "id": 3,
+                "description": "This seed is located on the left side of the Plaza Bulletin Board."
+            },
+            {
+                "id": 4,
+                "description": "This Mokoko Seed is located on the ground in front of the huge tree. It is to the right of Prideholm Cathedral."
+            },
+            {
+                "id": 5,
+                "description": "Go to the Prideholm Cathedral in the very left end of the building and you should be able to walk right through the wall. The path is literally off the map into nothingness. Once through the wall, take a right, then go left and you should come up on the seed."
+            },
+            {
+                "id": 6,
+                "description": "This seed is also in the walls of Prideholm Cathedral right next to seed number 5, the previous seed."
+            },
+            {
+                "id": 7,
+                "description": "This seed is located on the right side of the house behind Traveler Kadi, then hidden behind a flower plot next to the house."
+            },
+            {
+                "id": 8,
+                "description": "This Mokoko Seed is located in the farm pen to the left, in front of a wagon holding hay."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed is located in the farm pen to the right, in the middle of the sowed soil."
             }
         ]
     },
@@ -85,11 +117,47 @@
         "label": "Rethramis Border",
         "seeds": 10,
         "type": "Region",
-        "map": "brilliantRidge.png",
+        "map": "rethramisBorder.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is located behind the wagon next to the windmill."
+            },
+            {
+                "id": 2,
+                "description": "This seed is located to the left of the campfire, hidden in the big bush in front of the tree."
+            },
+            {
+                "id": 3,
+                "description": "This seed is located to the right of the path near some plants."
+            },
+            {
+                "id": 4,
+                "description": "This Mokoko Seed is located on the ground to the right of the entrance into Regria Monastery."
+            },
+            {
+                "id": 5,
+                "description": "This seed is right next to the 4th seed, the previous one, in the same spot."
+            },
+            {
+                "id": 6,
+                "description": "There will be three total seeds at this location. To access it, you need to defeat enemies near the area, then you will see the glowing yellow circle indicating that you can climb the cliff. Continue north from where you climbed up, and you will find one seed toward the left near some trees. "
+            },
+            {
+                "id": 7,
+                "description": "Refering to seed 6, continue upwards and you will see another seed hidden in a patch of grass."
+            },
+            {
+                "id": 8,
+                "description": "This seed is right next to seed 7. Now you should have gotten the 3 seeds from this secret location."
+            },
+            {
+                "id": 9,
+                "description": "This seed is located up against a rocky  hillside on the left side of the path. Above the straw hut."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed is located behind the straw huts near the bare tree."
             }
         ]
     },
