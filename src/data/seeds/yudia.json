@@ -4,7 +4,7 @@
         "label": "Saland Hill",
         "seeds": 8,
         "type": "Region",
-        "map": "brilliantRidge.png",
+        "map": "salandHill.png",
         "instructions": [
             {
                 "id": 1,
@@ -49,7 +49,7 @@
         "label": "Morai Ruins",
         "seeds": 8,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "moraiRuins.png",
         "instructions": [
             {
                 "id": 1,
@@ -102,7 +102,7 @@
         "label": "Ozhorn Hill",
         "seeds": 8,
         "type": "Region",
-        "map": "brilliantRidge.png",
+        "map": "ozhornHill.png",
         "instructions": [
             {
                 "id": 1,
@@ -143,7 +143,7 @@
         "label": "Sapira Cave",
         "seeds": 8,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "sapiraCave.png",
         "instructions": [
             {
                 "id": 1,

@@ -62,7 +62,7 @@
         "label": "Toxiclaw Cavern",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "toxiclawCavern.png",
         "instructions": [
             {
                 "id": 1,
@@ -124,7 +124,7 @@
         "label": "Aquilok's Head",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "aquiloksHead.png",
         "instructions": [
             {
                 "id": 1,
@@ -206,7 +206,7 @@
         "label": "Aquilok's Tail",
         "seeds": 6,
         "type": "Dungeon",
-        "map": "brilliantRidge.png",
+        "map": "aquiloksTail.png",
         "instructions": [
             {
                 "id": 1,
