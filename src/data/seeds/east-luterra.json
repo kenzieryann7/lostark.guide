@@ -8,23 +8,43 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first 3 Mokoko Seeds are in Luterra Palace through the door and into nothingness. The first one should be just a little bit after the door."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "Continuing on, the second one can be found just a little bit further up."
             },
             {
                 "id": 3,
-                "description": "This Mokoko seed is resting between a tree and some large rocks."
+                "description": "Then, the third seed can be found further up from the last."
             },
             {
                 "id": 4,
-                "description": "3 Mokoko Seeds can be found after defeating the crab boss. Near the burning blazer is a rock wall, you should be able to walk right through it to the end, then you will see the 3 seeds."
+                "description": "There are two seeds in the walls of Kadan Cathedral. Go into this building and to the end towards the left is a little nook. Go to the right wall and you can go through it. As the floor is also nothingness, if you click towards the seeds, you will follow along the path to get there. The first one shouldn't be too far."
             },
             {
                 "id": 5,
-                "description": "The last Mokoko seed can be found here near some rocks on the left."
+                "description": "Continuing on, step back a little then keep going up and take a right to get to the second seed."
+            },
+            {
+                "id": 6,
+                "description": "Go through the door into the Kaden Cathedral Basement. Go all the way to the end of the map and on the far right side sits a Mokoko Seed hidden behind the corner of the wall."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed is located in the stands full of cheering people towards the bottom."
+            },
+            {
+                "id": 8,
+                "description": "This seed is located in the outside seating area of Neria's Tavern. Go to the very end against the brick wall behind the table towards the right."
+            },
+            {
+                "id": 9,
+                "description": "You can find this Mokoko Seed next to the fruit stand on the side facing you."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed can be found in the corner of the bridge arch on the left side of the path."
             }
         ]
     },
