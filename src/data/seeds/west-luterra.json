@@ -122,6 +122,7 @@
         "label": "Battlebound Plains",
         "seeds": 7,
         "type": "Region",
+        "map": "battleboundPlains.png",
         "instructions": [
             {
                 "id": 1,
