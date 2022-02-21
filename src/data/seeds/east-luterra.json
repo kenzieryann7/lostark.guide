@@ -50,17 +50,54 @@
     },
     {
         "id": 2,
-        "label": "Dyorika Plains",
+        "label": "Dyorika Plain",
         "seeds": 11,
         "type": "Region",
+        "map": "dyorikaPlain.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found in a bush, up against a wooden fence. It will be on the left side of the path to the right of the sign."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "This one is located on the ground in front of a wooden fence near where the flying insects are."
+            },
+            {
+                "id": 3,
+                "description": "This seed is in the left corner of the Plain Crow stables. The corner of where a wood fence meets with a stone wall,"
+            },
+            {
+                "id": 4,
+                "description": "This seed can be found in the horse stables behind the wooden gate."
+            },
+            {
+                "id": 5,
+                "description": "This one is located in some trees to the right of the path near some water."
+            },
+            {
+                "id": 6,
+                "description": "This Mokoko Seed can be found in a patch of grass behind a broken down wooden caravan and to the left of the hay."
+            },
+            {
+                "id": 7,
+                "description": "This seed is on the ground in front of a pile of hay."
+            },
+            {
+                "id": 8,
+                "description": "This one is on the ground in front of some wooden crates with a couple sacks of fruit to the left of it."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed can be located after killing King Pigerett to the left side of the hut in the back."
+            },
+            {
+                "id": 10,
+                "description": "This seed is on the ground out in the open near some sowed soil and a wooden fence."
+            },
+            {
+                "id": 11,
+                "description": "The last Mokoko Seed is in the very top of the map, to the left of the railroad tracks."
             }
         ]
     },
@@ -69,14 +106,47 @@
         "label": "Sunbright Hill",
         "seeds": 10,
         "type": "Region",
+        "map": "sunbrightHill.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is to the right of the path, next to a wooden fence and a pack of wolves."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "This seed can be found within a bush to the right of the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed can be found in a pumpkin patch, on the ground in front of a scarecrow with a pumpkin as its head."
+            },
+            {
+                "id": 4,
+                "description": "This seed can be found in a pumpkin patch as well. This patch is near the water, but the seed is on the other end next to the path."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed can be found in a patch of sunflowers."
+            },
+            {
+                "id": 6,
+                "description": "This one can be located past the Potion Merchant, then behind the wooden shed."
+            },
+            {
+                "id": 7,
+                "description": "This seed can be found on the ground near a wooden fence. It will be close to enemies called World Harvest Members."
+            },
+            {
+                "id": 8,
+                "description": "This Mokoko Seed can be found in a big patch of sunflowers, near a rock cliff and wooden log fencing."
+            },
+            {
+                "id": 9,
+                "description": "You can find this seed in a tightly knit pumpkin patch that will be in front of a wooden cage."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed can be found next to a boulder to the right of the overgrown stone structures, in the corner of a stone path."
             }
         ]
     },
@@ -85,14 +155,47 @@
         "label": "Lastra Forest",
         "seeds": 7,
         "type": "Dungeon",
+        "map": "luterraForest.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "You can find the first Mokoko Seed to the left of the path and to the right of the ceremonial altar. You will see it on the ground in plain sight."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "This seed can be found right after you open the door with the Sword Seal. You will see it to the right past the iron fence."
+            },
+            {
+                "id": 3,
+                "description": "Go across the wooden bridge to the right. Keep going till you see the next Mokoko Seed to the top of the path near some candles."
+            },
+            {
+                "id": 4,
+                "description": "Keep going forward, you will find another Mokoko Seed to the left of the path lit up by some candles."
+            },
+            {
+                "id": 5,
+                "description": "Then, go across the wooden bridge ahead, you will see yet another Mokoko Seed to the right next to some tombstones."
+            },
+            {
+                "id": 6,
+                "description": "This seed is can be found straight ahead through the tombstones, you will see it on the ground."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed can be found next to the dead tree when you land on this platform."
+            },
+            {
+                "id": 8,
+                "description": "You can find this seed right as you spawn in to the Tome of the Great King Luterra. It will be to the left of the path hidden in a patch of grass to the right of the burning torch."
+            },
+            {
+                "id": 9,
+                "description": "Once at top of the staircase, to the left you will see another Mokoko Seed on the ledge."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed is hidden in a vase at the very end of this path. You have to destroy the pot by attacking it, then you should see the seed."
             }
         ]
     },
