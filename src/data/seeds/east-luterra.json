@@ -152,7 +152,7 @@
     },
     {
         "id": 4,
-        "label": "Lastra Forest",
+        "label": "Lastra Forest/King's Tomb",
         "seeds": 7,
         "type": "Dungeon",
         "map": "luterraForest.png",
@@ -183,7 +183,7 @@
             },
             {
                 "id": 7,
-                "description": "This Mokoko Seed can be found next to the dead tree when you land on this platform."
+                "description": "This Mokoko Seed is the last one in Luterra Forest and can be found next to the dead tree when you land on this platform. The next 3 Mokoko Seeds are in King's Tomb through the door."
             },
             {
                 "id": 8,
@@ -201,49 +201,153 @@
     },
     {
         "id": 5,
-        "label": "King's Tomb",
-        "seeds": 3,
+        "label": "Flowering Orchard",
+        "seeds": 10,
         "type": "Region",
+        "map": "floweringOrchard.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found to the left of the path hidden in a bush against a wooden fence."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "This seed is located in the orchard in front of tree."
+            },
+            {
+                "id": 3,
+                "description": "This one can be found right outside of Sien Inn to the right of the path under a tree."
+            },
+            {
+                "id": 4,
+                "description": "This Mokoko seed can be found at the end of this path on the ground between a tree and a bush."
+            },
+            {
+                "id": 5,
+                "description": "This seed is located to the right of the path and you will see a house in the hillside with its door open. Go down and you can go in. Then you will see some barrels to the left, destroy them to get to the Mokoko Seed."
+            },
+            {
+                "id": 6,
+                "description": "This seed can be found in a basket in front of a tree. You will have to kill some enemies before you can get it."
+            },
+            {
+                "id": 7,
+                "description": "You can find this Mokoko Seed at the end of the path under a large tree."
+            },
+            {
+                "id": 8,
+                "description": "This one is located on the wooden platform to the left, under the tent with a white cloth tarp."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed can be found next to a burnt down house."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed can be found to the right of the dead tree. Near where you fight the clown boss."
             }
         ]
     },
     {
         "id": 6,
-        "label": "Flowering Orchard",
-        "seeds": 10,
+        "label": "Blackrose Chapel",
+        "seeds": 13,
         "type": "Region",
+        "map": "blackroseChapel.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found to the right of the path and in front of a burning blazer."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "You will see a lantern on a chair next to a closed door, you can go in. When you are in, you can find one seed to the left near the wooden box in the corner. See next instruction for second seed in this location."
+            },
+            {
+                "id": 3,
+                "description": "The second seed can be found to the left side of the bookcase."
+            },
+            {
+                "id": 4,
+                "description": "This Mokoko Seed can be found on the ground in front of a statue of a man holding a staff."
+            },
+            {
+                "id": 5,
+                "description": "Go to the end of the path and you will see a destroyed barn, go in it. You will find 3 Mokoko Seeds at this location. The first seed will be at the end of the hall."
+            },
+            {
+                "id": 6,
+                "description": "Continue on the path and once you come to where it splits, take a left and at the end should be the second seed."
+            },
+            {
+                "id": 7,
+                "description": "Go back and take the other path. Take an immediate right after the wooden fence and at the end you will see the third seed."
+            },
+            {
+                "id": 8,
+                "description": "This seed can be found in the Church Graveyard, against the fencing in a corner."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed can be found to the other end of the building against the wall. Across from where the Triport is."
+            },
+            {
+                "id": 10,
+                "description": "This seed is hidden in some grass in front of the water fountain."
+            },
+            {
+                "id": 11,
+                "description": "This seed can be found next to the first ritual you come across against the wall."
+            },
+            {
+                "id": 12,
+                "description": "This seed is behind the stone altar."
+            },
+            {
+                "id": 13,
+                "description": "The last Mokoko Seed can be found after climbing up a few stone cliffs. It will be on the ground to the right of the path near candles and tombstones."
             }
         ]
     },
     {
         "id": 7,
-        "label": "Blackrose Chapel",
-        "seeds": 13,
-        "type": "Region",
+        "label": "Blackrose Basement",
+        "seeds": 8,
+        "type": "Dungeon",
+        "map": "blackroseBasement.png",
+        "note": "Do not kill the NPCs, Heretic Devotees. Make sure to do a full sweep of the dungeon and kill all Heretic enemies.",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found to the right of the path up the stairs and on the ground near the desks."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "The next seed is located in a room where you go for the dungeon quest to the right next to the burning blazer."
+            },
+            {
+                "id": 3,
+                "description": "Go through the door to the left and you will find 3 seeds here. One seed is immediately to the left in the corner."
+            },
+            {
+                "id": 4,
+                "description": "The second seed is to the far right corner that is lit up by the torch."
+            },
+            {
+                "id": 5,
+                "description": "You will find this seed next to the last one, lit up by the torch."
+            },
+            {
+                "id": 6,
+                "description": "If you have followed the Note, after killing the 14 Heretics, you should see this door open. Right inside you can see two Mokoko Seeds on the ground."
+            },
+            {
+                "id": 7,
+                "description": "See 6."
+            },
+            {
+                "id": 8,
+                "description": "The last Mokoko Seed can be found to the right and behind the railing to the end. You will see the seed on the ground in the corner."
             }
         ]
     },

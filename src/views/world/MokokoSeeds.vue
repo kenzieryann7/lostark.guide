@@ -317,6 +317,7 @@
           ></button>
         </div>
         <div class="modal-body">
+          <div v-if="selectedLocation?.note"><span class="fw-bold text-danger">Note:</span> {{ selectedLocation.note }}</div>
           <div v-if="selectedLocation?.map">
             <div class="row">
               <div class="col">
