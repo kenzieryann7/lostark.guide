@@ -52,7 +52,7 @@
         "id": 2,
         "label": "Dyorika Plain",
         "seeds": 11,
-        "type": "Region",
+        "type": "Field",
         "map": "dyorikaPlain.png",
         "instructions": [
             {
@@ -105,7 +105,7 @@
         "id": 3,
         "label": "Sunbright Hill",
         "seeds": 10,
-        "type": "Region",
+        "type": "Field",
         "map": "sunbrightHill.png",
         "instructions": [
             {
@@ -203,7 +203,7 @@
         "id": 5,
         "label": "Flowering Orchard",
         "seeds": 10,
-        "type": "Region",
+        "type": "Field",
         "map": "floweringOrchard.png",
         "instructions": [
             {
@@ -252,7 +252,7 @@
         "id": 6,
         "label": "Blackrose Chapel",
         "seeds": 13,
-        "type": "Region",
+        "type": "Field",
         "map": "blackroseChapel.png",
         "instructions": [
             {
@@ -355,15 +355,40 @@
         "id": 8,
         "label": "Leyar Terrace",
         "seeds": 8,
-        "type": "Region",
+        "type": "Field",
+        "map": "leyarTerrace.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed is immediately to your left as you enter Leyar Terrace from Blackrose Chapel."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "This seed can be found in the corner of the path here under the trees."
+            },
+            {
+                "id": 3,
+                "description": "You can find this Mokoko Seed under the waterfall."
+            },
+            {
+                "id": 4,
+                "description": "This seed can be located on the ground in front of a big tree and also to the right of a few floating blue orbs."
+            },
+            {
+                "id": 5,
+                "description": "This seed is hidden in a secret area. Go to the corner left of where you got the previous seed. You will see a path leading up a hill. Go up it and take a right and follow all the way up. You will see a Vista, it is in a bush North of it and to the left of the tree."
+            },
+            {
+                "id": 6,
+                "description": "This seed is located at the very end of this path, under a rock ledge with a dead tree on top of it."
+            },
+            {
+                "id": 7,
+                "description": "You can find this seed to the right of the path near a wooden fence. There is hay on the other side of the fence."
+            },
+            {
+                "id": 8,
+                "description": "The last Mokoko Seed can be found on a rocky ledge that is in the water."
             }
         ]
     },
@@ -371,15 +396,51 @@
         "id": 9,
         "label": "Borea's Domain",
         "seeds": 11,
-        "type": "Region",
+        "type": "Field",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found near a wooden watchtower and a wagon holding crates and sacks."
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": "You can find this seed at the end of this path next to a wagon in the corner."
+            },
+            {
+                "id": 3,
+                "description": "This seed is hidden in a bush to the left of the tent."
+            },
+            {
+                "id": 4,
+                "description": "This seed is at the very end here, you will need to kill a mob to get to the edge. You will then see the seed on the ledge surrounded by flames"
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko seed can be found near the demon hut on the left. You will have to kill the group of enemies there before you can get to it."
+            },
+            {
+                "id": 6,
+                "description": ""
+            },
+            {
+                "id": 7,
+                "description": ""
+            },
+            {
+                "id": 8,
+                "description": ""
+            },
+            {
+                "id": 9,
+                "description": ""
+            },
+            {
+                "id": 10,
+                "description": ""
+            },
+            {
+                "id": 11,
+                "description": ""
             }
         ]
     },
@@ -387,15 +448,15 @@
         "id": 10,
         "label": "Croconys Seashore",
         "seeds": 18,
-        "type": "Region",
+        "type": "Field",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": ""
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": ""
             }
         ]
     },
@@ -407,11 +468,11 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": ""
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": ""
             }
         ]
     },
@@ -423,11 +484,11 @@
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": ""
             },
             {
                 "id": 2,
-                "description": "This Mokoko seed is in a patch of grass near the path."
+                "description": ""
             }
         ]
     }

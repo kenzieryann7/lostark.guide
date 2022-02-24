@@ -32,7 +32,7 @@
         "id": 2,
         "label": "Lakebar",
         "seeds": 11,
-        "type": "Region",
+        "type": "Field",
         "instructions": [
             {
                 "id": 1,
@@ -48,7 +48,7 @@
         "id": 3,
         "label": "Mount Zagoras",
         "seeds": 12,
-        "type": "Region",
+        "type": "Field",
         "instructions": [
             {
                 "id": 1,
@@ -60,7 +60,7 @@
         "id": 4,
         "label": "Medrick Monastery",
         "seeds": 13,
-        "type": "Region",
+        "type": "Field",
         "instructions": [
             {
                 "id": 1,
@@ -76,7 +76,7 @@
         "id": 5,
         "label": "Bilbrin Forest",
         "seeds": 9,
-        "type": "Region",
+        "type": "Field",
         "map": "bilbrinForest.png",
         "instructions": [
             {
@@ -121,7 +121,7 @@
         "id": 6,
         "label": "Battlebound Plains",
         "seeds": 7,
-        "type": "Region",
+        "type": "Field",
         "map": "battleboundPlains.png",
         "instructions": [
             {

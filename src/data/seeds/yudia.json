@@ -3,7 +3,7 @@
         "id": 1,
         "label": "Saland Hill",
         "seeds": 8,
-        "type": "Region",
+        "type": "Field",
         "map": "salandHill.png",
         "instructions": [
             {
@@ -101,7 +101,7 @@
         "id": 3,
         "label": "Ozhorn Hill",
         "seeds": 8,
-        "type": "Region",
+        "type": "Field",
         "map": "ozhornHill.png",
         "instructions": [
             {

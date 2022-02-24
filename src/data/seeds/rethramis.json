@@ -48,7 +48,7 @@
         "id": 2,
         "label": "Loghill",
         "seeds": 9,
-        "type": "Region",
+        "type": "Field",
         "map": "brilliantRidge.png",
         "instructions": [
             {
@@ -94,7 +94,7 @@
         "id": 4,
         "label": "Ankumo Mountains",
         "seeds": 5,
-        "type": "Region",
+        "type": "Field",
         "map": "ankumoMountain.png",
         "instructions": [
             {
@@ -156,7 +156,7 @@
         "id": 6,
         "label": "Rethramis Border",
         "seeds": 10,
-        "type": "Region",
+        "type": "Field",
         "map": "rethramisBorder.png",
         "instructions": [
             {
