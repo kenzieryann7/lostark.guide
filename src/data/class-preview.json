@@ -1,0 +1,122 @@
+[
+    {
+        "id": 0,
+        "class": "Assassin",
+        "subclass": "Deathblade",
+        "gender": "Female",
+        "style": "MELEE",
+        "img": "deathblade.jpeg"
+    },
+    {
+        "id": 1,
+        "class": "Assassin",
+        "subclass": "Shadowhunter",
+        "gender": "Female",
+        "style": "MELEE",
+        "img": "shadowhunter.jpeg"
+    },
+    {
+        "id": 2,
+        "class": "Gunner",
+        "subclass": "Gunslinger",
+        "gender": "Female",
+        "style": "RANGE",
+        "img": "gunslinger.jpeg"
+    },
+    {
+        "id": 3,
+        "class": "Gunner",
+        "subclass": "Deadeye",
+        "gender": "Male",
+        "style": "RANGE",
+        "img": "deadeye.jpeg"
+    },
+    {
+        "id": 4,
+        "class": "Gunner",
+        "subclass": "Sharpshooter",
+        "gender": "Male",
+        "style": "RANGE",
+        "img": "sharpshooter.jpeg"
+    },
+    {
+        "id": 5,
+        "class": "Gunner",
+        "subclass": "Artillerist",
+        "gender": "Male",
+        "style": "RANGE",
+        "img": "artillerist.jpeg"
+    },
+    {
+        "id": 6,
+        "class": "Mage",
+        "subclass": "Bard",
+        "gender": "Female",
+        "style": "RANGE",
+        "img": "bard.jpeg"
+    },
+    {
+        "id": 7,
+        "class": "Mage",
+        "subclass": "Sorceress",
+        "gender": "Female",
+        "style": "RANGE",
+        "img": "sorceress.jpeg"
+    },
+    {
+        "id": 8,
+        "class": "Martial Artist",
+        "subclass": "Striker",
+        "gender": "Male",
+        "style": "MELEE",
+        "img": "striker.jpeg"
+    },
+    {
+        "id": 9,
+        "class": "Martial Artist",
+        "subclass": "Scrapper",
+        "gender": "Female",
+        "style": "MELEE",
+        "img": "scrapper.jpeg"
+    },
+    {
+        "id": 10,
+        "class": "Martial Artist",
+        "subclass": "Soulfist",
+        "gender": "Female",
+        "style": "MELEE",
+        "img": "soulfist.jpeg"
+    },
+    {
+        "id": 11,
+        "class": "Martial Artist",
+        "subclass": "Wardancer",
+        "gender": "Female",
+        "style": "MELEE",
+        "img": "wardancer.jpeg"
+    },
+    {
+        "id": 12,
+        "class": "Warrior",
+        "subclass": "Berserker",
+        "gender": "Male",
+        "style": "MELEE",
+        "img": "berserker.jpeg"
+    },
+    {
+        "id": 13,
+        "class": "Warrior",
+        "subclass": "Paladin",
+        "gender": "Male",
+        "style": "MELEE",
+        "img": "paladin.jpeg"
+    },
+    {
+        "id": 14,
+        "class": "Warrior",
+        "subclass": "Gunlancer",
+        "gender": "Male",
+        "style": "MELEE",
+        "img": "gunlancer.jpeg"
+    }
+]

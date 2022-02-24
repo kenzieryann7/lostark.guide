@@ -1,5 +1,5 @@
 body {
-  background: rgb(20, 20, 20) !important;
+  background: #152b3a !important;
   margin-bottom: 50px;
 }
 
@@ -7,6 +7,19 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+.dark-card {
+  background-color: #171717 !important;
+}
+
+.ark-purple {
+  background-color: #403459 !important;
+}
+
+.ark-purple:hover {
+  outline: 1px solid white;
+  background-color: #2c2241 !important;
 }
 
 .footer {
@@ -45,6 +58,9 @@ a {
 
 .pointer {
   cursor: pointer;
+}
+.class-title {
+  font-size: 18px !important;
 }
 
 .tool-title {

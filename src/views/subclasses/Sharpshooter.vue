@@ -1,6 +1,6 @@
 <template>
   <!-- HEAD CARD -->
-  <div class="card text-white bg-dark mb-3 shadow">
+  <div class="card text-white dark-card mb-3 shadow">
     <div class="card-header fw-bold h4">
       Sharpshooter
       <img

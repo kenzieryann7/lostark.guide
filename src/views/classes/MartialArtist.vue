@@ -1,6 +1,6 @@
 <template>
   <!-- HEAD CARD -->
-  <div class="card text-white bg-dark mb-3 shadow">
+  <div class="card text-white dark-card mb-3 shadow">
     <div class="card-header fw-bold h4">Martial Artist</div>
     <div class="card-body text-start">
       <div class="mb-3">
@@ -28,7 +28,7 @@
             </div>
             <div class="card-footer text-center">
               <router-link :to="{ name: 'Striker' }"
-                ><button type="button" class="btn fw-bold btn-info">
+                ><button type="button" class="btn fw-bold text-white ark-purple">
                   View
                 </button></router-link
               >
@@ -55,7 +55,7 @@
             </div>
             <div class="card-footer text-center">
               <router-link :to="{ name: 'Scrapper' }"
-                ><button type="button" class="btn fw-bold btn-info">
+                ><button type="button" class="btn fw-bold text-white ark-purple">
                   View
                 </button></router-link
               >
@@ -82,7 +82,7 @@
             </div>
             <div class="card-footer text-center">
               <router-link :to="{ name: 'Soulfist' }"
-                ><button type="button" class="btn fw-bold btn-info">
+                ><button type="button" class="btn fw-bold text-white ark-purple">
                   View
                 </button></router-link
               >
@@ -111,7 +111,7 @@
             </div>
             <div class="card-footer text-center">
               <router-link :to="{ name: 'Wardancer' }"
-                ><button type="button" class="btn fw-bold btn-info">
+                ><button type="button" class="btn fw-bold text-white ark-purple">
                   View
                 </button></router-link
               >

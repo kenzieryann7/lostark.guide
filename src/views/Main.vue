@@ -1,14 +1,8 @@
 <template>
   <!-- HEAD CARD -->
-  <div class="card text-white bg-dark mb-3 shadow">
-    <div class="card-header fw-bold h4">Welcome to the Lost Ark Guide</div>
+  <div class="card dark-card text-white bg-dark mb-3 shadow">
+    <img src="@/assets/lostark-art.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <img
-        src="@/assets/lostark-art.jpeg"
-        class="img-fluid rounded border border-secondary mb-3"
-        alt="..."
-        style="width: 600px"
-      />
       <div class="text-start">
         This is a public guide for
         <a href="https://www.playlostark.com/en-us" target="_blank">Lost Ark</a
@@ -23,8 +17,8 @@
   </div>
 
   <!-- ABOUT THE GAME -->
-  <div class="card text-white bg-dark mb-3">
-    <div class="card-header fw-bold h4">About Lost Ark</div>
+  <div class="card dark-card text-white bg-dark mb-3 shadow">
+    <div class="card-header fw-bold h3 text-start">About Lost Ark</div>
     <div class="card-body text-start">
       Lost Ark, developed by
       <a href="https://www.smilegate.com/en/" target="_blank">Smilegate RPG</a>,
@@ -39,16 +33,24 @@
       <a
         href="https://store.steampowered.com/app/1599340/Lost_Ark/"
         target="_blank"
-        ><button type="button" class="btn btn-info">
+        ><button type="button" class="btn text-white ark-purple">
           Download from Steam now!
         </button></a
       >
     </div>
   </div>
+  
+  <div class="card dark-card text-white bg-dark mb-3 shadow">
+    <div class="card-header fw-bold h3 text-start">Classes</div>
+    <div class="card-body">
+      <div class="mb-3"><ClassPreviews /></div>
+    </div>
+  </div>
+  
 
   <!-- GAME CONTENT -->
-  <div class="card text-white bg-dark mb-3">
-    <div class="card-header fw-bold h4">Game Content</div>
+  <div class="card dark-card text-white bg-dark mb-3 shadow">
+    <div class="card-header fw-bold h3 text-start">Game Content</div>
     <div class="card-body text-start">
       <div class="row">
         <div class="col">
@@ -403,9 +405,13 @@
   </div>
 </template>
 <script>
+
+import ClassPreviews from '@/components/ClassPreviews.vue';
 export default {
   name: "Main",
-  components: {},
+  components: {
+    ClassPreviews
+  },
   data: function () {
     return {};
   },
@@ -427,4 +433,5 @@ export default {
 .sm-text {
   font-size: 14px !important;
 }
+
 </style>
