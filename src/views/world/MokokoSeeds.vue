@@ -28,6 +28,115 @@
         See below for the list of map locations marked where these seeds can be
         found.
       </div>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button
+            class="nav-link active fw-bold text-white ark-purple"
+            id="rrethramis-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Rethramis"
+            type="button"
+            role="tab"
+            aria-controls="rethramis"
+            aria-selected="true"
+          >
+            Rethramis
+          </button>
+          <button
+            class="nav-link fw-bold text-white ark-purple"
+            id="yudia-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#yudia"
+            type="button"
+            role="tab"
+            aria-controls="yudia"
+            aria-selected="false"
+          >
+            Yudia
+          </button>
+          <button
+            class="nav-link fw-bold text-white ark-purple"
+            id="west-luterra-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#west-luterra"
+            type="button"
+            role="tab"
+            aria-controls="west-luterra"
+            aria-selected="false"
+          >
+            West Luterra
+          </button>
+          <button
+            class="nav-link fw-bold text-white ark-purple"
+            id="east-luterra-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#east-luterra"
+            type="button"
+            role="tab"
+            aria-controls="east-luterra"
+            aria-selected="false"
+          >
+            East Luterra
+          </button>
+          <button
+            class="nav-link fw-bold text-white ark-purple"
+            id="anikka-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#anikka"
+            type="button"
+            role="tab"
+            aria-controls="anikka"
+            aria-selected="false"
+          >
+            Anikka
+          </button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="rethramis"
+          role="tabpanel"
+          aria-labelledby="rethramis-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="yudia"
+          role="tabpanel"
+          aria-labelledby="yudia-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="west-luterra"
+          role="tabpanel"
+          aria-labelledby="west-luterra-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="east-luterra"
+          role="tabpanel"
+          aria-labelledby="east-luterra-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="anikka"
+          role="tabpanel"
+          aria-labelledby="anikka-tab"
+        >
+          ...
+        </div>
+      </div>
+      <div class="mb-3">
+        <MokokoSeedLocations :seedLocations="rethramisData" />
+      </div>
       <div class="table-responsive d-flex justify-content-center">
         <table class="table table-dark table-striped" style="max-width: 35rem">
           <thead>
@@ -317,7 +426,10 @@
           ></button>
         </div>
         <div class="modal-body">
-          <div v-if="selectedLocation?.note"><span class="fw-bold text-danger">Note:</span> {{ selectedLocation.note }}</div>
+          <div v-if="selectedLocation?.note">
+            <span class="fw-bold text-danger">Note:</span>
+            {{ selectedLocation.note }}
+          </div>
           <div v-if="selectedLocation?.map">
             <div class="row">
               <div class="col">
@@ -362,9 +474,12 @@ import yudiaData from '@/data/seeds/yudia.json';
 import westLuterraData from '@/data/seeds/west-luterra.json';
 import eastLuterraData from '@/data/seeds/east-luterra.json';
 import anikkaData from '@/data/seeds/anikka.json';
+import MokokoSeedLocations from '@/components/MokokoSeedLocations.vue';
 export default {
   name: 'MokokoSeeds',
-  components: {},
+  components: {
+    MokokoSeedLocations,
+  },
   data: function () {
     return {
       rethramisData,
