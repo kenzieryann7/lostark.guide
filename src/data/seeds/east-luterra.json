@@ -416,31 +416,31 @@
             },
             {
                 "id": 5,
-                "description": "This Mokoko seed can be found near the demon hut on the left. You will have to kill the group of enemies there before you can get to it."
+                "description": "This Mokoko Seed can be found near the demon hut on the left. You will have to kill the group of enemies there before you can get to it."
             },
             {
                 "id": 6,
-                "description": ""
+                "description": "This Mokoko Seed can be found near a boulder, left of the dead tree. You may see a waterfall off the edge, its to the right of it."
             },
             {
                 "id": 7,
-                "description": ""
+                "description": "You can find this seed in some grass in front of the wooden watch tower."
             },
             {
                 "id": 8,
-                "description": ""
+                "description": "This Mokoko Seed can be found hidden in some grass between a wooden spiked fence and a demonic looking wagon."
             },
             {
                 "id": 9,
-                "description": ""
+                "description": "This seed is located at the very end of the path under a large tree after the Vista."
             },
             {
                 "id": 10,
-                "description": ""
+                "description": "There will be two Mokoko Seeds here. You need to play the Forest's Minute song to open the secret passage way."
             },
             {
                 "id": 11,
-                "description": ""
+                "description": "Refer to #10."
             }
         ]
     },
@@ -465,14 +465,31 @@
         "label": "Wavestrand Port",
         "seeds": 6,
         "type": "Town",
+        "map": "wavestrandPort.png",
         "instructions": [
             {
                 "id": 1,
-                "description": ""
+                "description": "The first Mokoko Seed can be found right as you enter Wavestrand Port from Borea's Domanin. It is hidden in some grass near some fish in a barrel and a hanging net full of fish."
             },
             {
                 "id": 2,
-                "description": ""
+                "description": "This seed can be found to the right of the Potion Merchant's stand."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed can be found hidden in a bush between a table with an umbrella and a stone fence."
+            },
+            {
+                "id": 4,
+                "description": "This seed is located behind the water fountain."
+            },
+            {
+                "id": 5,
+                "description": "This seed is near a robot to the right of the Gear Merchant stand."
+            },
+            {
+                "id": 6,
+                "description": "The last Mokoko Seed can be found at the back of the wooden caravan thats holding fish and other goods."
             }
         ]
     },
