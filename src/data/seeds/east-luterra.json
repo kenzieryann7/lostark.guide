@@ -452,11 +452,75 @@
         "instructions": [
             {
                 "id": 1,
-                "description": ""
+                "description": "The first Mokoko Seed can be found on the left side of the dock and water wheel. Hidden under the deck."
             },
             {
                 "id": 2,
-                "description": ""
+                "description": "This seed is located in a nook in the left corner between some barrels. There will be a group of pirates you will have to kill first."
+            },
+            {
+                "id": 3,
+                "description": "You can find this Mokoko Seed hidden in some grass on the beach. You may need to kill some crabs to get it."
+            },
+            {
+                "id": 4,
+                "description": "This seed is located in the palm trees. Enter behind them from the left side."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed is under the big tree to the left of the path, near the cliff edge. You may have to kill a group of Azure Powder Moths to access it."
+            },
+            {
+                "id": 6,
+                "description": "You can find this seed in Lightshade Inn, to the left after the entrance in the corner. It will be near a barrel of fish."
+            },
+            {
+                "id": 7,
+                "description": "This Mokoko Seed is on the ground against the rock wall behind the large skull."
+            },
+            {
+                "id": 8,
+                "description": "This seed can be found hidden in a bush at the end of the path. You may have to fight a group of pirates to get to it."
+            },
+            {
+                "id": 9,
+                "description": "This Mokoko Seed is up on the deck to the right."
+            },
+            {
+                "id": 10,
+                "description": "These two Mokoko Seeds will take some time to get. At the end here, you will see a barricade that blocks a bridge. It will take you 5-10 mins to break it. Once broken quickly go through as it will respawn immediately. The first seed is straight ahead over the bridge to the end of the path. The second seed can be accessed taking either of the two remaining paths and you should eventually come up on it."
+            },
+            {
+                "id": 11,
+                "description": "See #10."
+            },
+            {
+                "id": 12,
+                "description": "You can find two more Mokoko Seeds by climbing up the vines on the side of the cliff. You will find the first seed near the wooden tower to the right hidden in some grass. The second seed is further to the right near the spiked wooden fence."
+            },
+            {
+                "id": 13,
+                "description": "See #12."
+            },
+            {
+                "id": 14,
+                "description": "This Mokoko Seed is located hidden near a bush in front of a giant tree."
+            },
+            {
+                "id": 15,
+                "description": "This seed is located in some overgrowth on top the ship."
+            },
+            {
+                "id": 16,
+                "description": "You can find this Mokoko Seed on a wooden platform you can jump to, hidden in some overgrowth plants."
+            },
+            {
+                "id": 17,
+                "description": "From the last seed, if you continue forward to the very end you will come up on another seed. It is sitting next to a chest."
+            },
+            {
+                "id": 18,
+                "description": "The last Mokoko Seed can be found on the shore near a broken wooden row boat."
             }
         ]
     },
