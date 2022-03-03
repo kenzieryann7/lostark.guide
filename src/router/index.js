@@ -42,6 +42,7 @@ import Paladin from "../views/subclasses/Paladin.vue";
 
 // WORLD
 import MokokoSeeds from "../views/world/MokokoSeeds.vue";
+import SeedLocation from "../views/world/SeedLocation.vue";
 
 const routes = [
   {
@@ -201,6 +202,12 @@ const routes = [
     path: "/classes/world/mokoko-seeds", // routes should be lowercase
     name: "MokokoSeeds",
     component: MokokoSeeds
+  },
+  {
+    path: "/classes/world/mokoko-seeds/:seedLocation", // routes should be lowercase
+    name: "SeedLocation",
+    component: SeedLocation,
+    props: true
   }
 ];
 

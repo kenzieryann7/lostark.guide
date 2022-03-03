@@ -3,12 +3,24 @@
         "id": 1,
         "label": "Port City Changhun",
         "seeds": 4,
-        "type": "Field",
-        "map": "brilliantRidge.png",
+        "type": "City",
+        "map": "portCityChanghun.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found in very middle of the map."
+            },
+            {
+                "id": 2,
+                "description": "This seed can be seen in the grass to the right of the wooden bridge."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed is in Changchun Inn near some tables."
+            },
+            {
+                "id": 4,
+                "description": "The last Mokoko Seed can be found at the very end of the path near the wooden deck."
             }
         ]
     },
@@ -16,12 +28,48 @@
         "id": 2,
         "label": "Moonmist Manor",
         "seeds": 10,
-        "type": "Field",
-        "map": "brilliantRidge.png",
+        "type": "Dungeon",
+        "map": "moonmistManor.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found in some water in the corner of the path."
+            },
+            {
+                "id": 2,
+                "description": "This seed is in the room after breaking the first door to the right of the path."
+            },
+            {
+                "id": 3,
+                "description": "This Mokoko Seed can be found directly across from the previous seed, on the left side of the staircase."
+            },
+            {
+                "id": 4,
+                "description": "There are two seeds in this room to the right of the path. You will need to break the stone vases to get to them."
+            },
+            {
+                "id": 5,
+                "description": "See #4."
+            },
+            {
+                "id": 6,
+                "description": "You can find this Mokoko Seed hidden in a bush to the left of a stone structure."
+            },
+            {
+                "id": 7,
+                "description": "This seed is located to the right of a well towards the end of the path."
+            },
+            {
+                "id": 8,
+                "description": "This seed can be found at the end of this path on the left. It will be in front of a stone coffin."
+            },
+            {
+                "id": 9,
+                "description": "This seed is at the very end of this path, down the stairs and in the building. You can just walk in."
+            },
+            {
+                "id": 10,
+                "description": "The last Mokoko Seed is located down the narrow path filled with water. You will see the seed at the end near a dead tree."
             }
         ]
     },
@@ -43,11 +91,23 @@
         "label": "Delphi Township",
         "seeds": 4,
         "type": "Field",
-        "map": "brilliantRidge.png",
+        "map": "delphiTownship.png",
         "instructions": [
             {
                 "id": 1,
-                "description": "The first Mokoko Seed is on the ground, near the burning blazer."
+                "description": "The first Mokoko Seed can be found in front of the pond with a tree in the middle."
+            },
+            {
+                "id": 2,
+                "description": "This seed is located in front of a wooden fence at the end of the path."
+            },
+            {
+                "id": 3,
+                "description": "This seed can be found to the left of the staircase between it and rock wall with water on the other side."
+            },
+            {
+                "id": 4,
+                "description": "The last Mokoko Seed can be found in front of a well."
             }
         ]
     },

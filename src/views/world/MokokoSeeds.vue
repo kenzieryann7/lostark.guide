@@ -1,7 +1,7 @@
 <template>
   <div class="text-start fw-bold">World / Mokoko Seeds</div>
   <!-- HEAD CARD -->
-  <div class="card text-white bg-dark mb-3 shadow">
+  <div class="card text-white dark-card mb-3 shadow">
     <div class="card-header fw-bold h4">
       Mokoko Seeds
       <img
@@ -28,441 +28,17 @@
         See below for the list of map locations marked where these seeds can be
         found.
       </div>
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button
-            class="nav-link active fw-bold text-white ark-purple"
-            id="rrethramis-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#Rethramis"
-            type="button"
-            role="tab"
-            aria-controls="rethramis"
-            aria-selected="true"
-          >
-            Rethramis
-          </button>
-          <button
-            class="nav-link fw-bold text-white ark-purple"
-            id="yudia-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#yudia"
-            type="button"
-            role="tab"
-            aria-controls="yudia"
-            aria-selected="false"
-          >
-            Yudia
-          </button>
-          <button
-            class="nav-link fw-bold text-white ark-purple"
-            id="west-luterra-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#west-luterra"
-            type="button"
-            role="tab"
-            aria-controls="west-luterra"
-            aria-selected="false"
-          >
-            West Luterra
-          </button>
-          <button
-            class="nav-link fw-bold text-white ark-purple"
-            id="east-luterra-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#east-luterra"
-            type="button"
-            role="tab"
-            aria-controls="east-luterra"
-            aria-selected="false"
-          >
-            East Luterra
-          </button>
-          <button
-            class="nav-link fw-bold text-white ark-purple"
-            id="anikka-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#anikka"
-            type="button"
-            role="tab"
-            aria-controls="anikka"
-            aria-selected="false"
-          >
-            Anikka
-          </button>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div
-          class="tab-pane fade show active"
-          id="rethramis"
-          role="tabpanel"
-          aria-labelledby="rethramis-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="yudia"
-          role="tabpanel"
-          aria-labelledby="yudia-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="west-luterra"
-          role="tabpanel"
-          aria-labelledby="west-luterra-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="east-luterra"
-          role="tabpanel"
-          aria-labelledby="east-luterra-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="anikka"
-          role="tabpanel"
-          aria-labelledby="anikka-tab"
-        >
-          ...
-        </div>
-      </div>
-      <div class="mb-3">
-        <MokokoSeedLocations :seedLocations="rethramisData" />
-      </div>
-      <div class="table-responsive d-flex justify-content-center">
-        <table class="table table-dark table-striped" style="max-width: 35rem">
-          <thead>
-            <tr>
-              <th scope="col">Location</th>
-              <th scope="col">Type</th>
-              <th scope="col">Seed Qty.</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Rethramis</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="seed in rethramisData"
-              :key="seed.id"
-              class="align-middle"
-            >
-              <td>{{ seed.label }}</td>
-              <td>{{ seed.type }}</td>
-              <td>
-                {{ seed.seeds }}
-                <img
-                  src="@/assets/mokoko-seed.png"
-                  class="img-fluid rounded"
-                  style="width: 1.5rem"
-                  alt="..."
-                />
-              </td>
-              <td class="text-center">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-info"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  @click="getLocation(seed)"
-                >
-                  View
-                </button>
-              </td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-              <th scope="col">Yudia</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="seed in yudiaData" :key="seed.id" class="align-middle">
-              <td>{{ seed.label }}</td>
-              <td>{{ seed.type }}</td>
-              <td>
-                {{ seed.seeds }}
-                <img
-                  src="@/assets/mokoko-seed.png"
-                  class="img-fluid rounded"
-                  style="width: 1.5rem"
-                  alt="..."
-                />
-              </td>
-              <td class="text-center">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-info"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  @click="getLocation(seed)"
-                >
-                  View
-                </button>
-              </td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-              <th scope="col">West Luterra</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="seed in westLuterraData"
-              :key="seed.id"
-              class="align-middle"
-            >
-              <td>{{ seed.label }}</td>
-              <td>{{ seed.type }}</td>
-              <td>
-                {{ seed.seeds }}
-                <img
-                  src="@/assets/mokoko-seed.png"
-                  class="img-fluid rounded"
-                  style="width: 1.5rem"
-                  alt="..."
-                />
-              </td>
-              <td class="text-center">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-info"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  @click="getLocation(seed)"
-                >
-                  View
-                </button>
-              </td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-              <th scope="col">East Luterra</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="seed in eastLuterraData"
-              :key="seed.id"
-              class="align-middle"
-            >
-              <td>{{ seed.label }}</td>
-              <td>{{ seed.type }}</td>
-              <td>
-                {{ seed.seeds }}
-                <img
-                  src="@/assets/mokoko-seed.png"
-                  class="img-fluid rounded"
-                  style="width: 1.5rem"
-                  alt="..."
-                />
-              </td>
-              <td class="text-center">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-info"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  @click="getLocation(seed)"
-                >
-                  View
-                </button>
-              </td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-              <th scope="col">Anikka</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="seed in anikkaData" :key="seed.id" class="align-middle">
-              <td>{{ seed.label }}</td>
-              <td>{{ seed.type }}</td>
-              <td>
-                {{ seed.seeds }}
-                <img
-                  src="@/assets/mokoko-seed.png"
-                  class="img-fluid rounded"
-                  style="width: 1.5rem"
-                  alt="..."
-                />
-              </td>
-              <td class="text-center">
-                <button
-                  type="button"
-                  class="btn btn-sm btn-info"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                  @click="getLocation(seed)"
-                >
-                  View
-                </button>
-              </td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr>
-              <th scope="col">Arthetine</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Vern North</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Shushire</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Rohendel</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Yorn</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Feiton</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Punika</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <th scope="col">Vern South</th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <!-- Map Modal -->
-  <div
-    class="modal fade"
-    id="exampleModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-xl modal-dialog-centered">
-      <div class="modal-content bg-dark">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">
-            {{ selectedLocation?.label }}: {{ selectedLocation?.seeds }}
-            <img
-              src="@/assets/mokoko-seed.png"
-              class="img-fluid rounded"
-              style="width: 2rem"
-              alt="..."
-            />
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <div v-if="selectedLocation?.note">
-            <span class="fw-bold text-danger">Note:</span>
-            {{ selectedLocation.note }}
-          </div>
-          <div v-if="selectedLocation?.map">
-            <div class="row">
-              <div class="col">
-                <img
-                  :src="
-                    require('@/assets/seed-locations/' + selectedLocation.map)
-                  "
-                  class="img-fluid rounded shadow"
-                  alt="..."
-                />
-              </div>
-              <div class="col text-start">
-                <ol>
-                  <li
-                    class="mb-3"
-                    v-for="place in selectedLocation?.instructions"
-                    :key="place.id"
-                  >
-                    {{ place.description }}
-                  </li>
-                </ol>
+      <div class="mb-5">
+        <div class="row">
+          <div class="col-2">
+            <div class="card bg-dark shadow">
+              <div class="card-header text-center fw-bold h5">Regions</div>
+              <div class="card-body text-start p-0 d-grid">
+                <div class="mb-1 text-purple" :class="{'active-purple': region.region == currentRegion}" v-for="region in regionsData" :key="region.id" @click="setRegion(region.region)"><span class="ms-2">{{region.region}}</span></div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
+          <div class="col"><MokokoSeedLocations :seedLocations="rethramisData" /></div>
         </div>
       </div>
     </div>
@@ -474,7 +50,10 @@ import yudiaData from '@/data/seeds/yudia.json';
 import westLuterraData from '@/data/seeds/west-luterra.json';
 import eastLuterraData from '@/data/seeds/east-luterra.json';
 import anikkaData from '@/data/seeds/anikka.json';
+
+import regionsData from '@/data/regions.json';
 import MokokoSeedLocations from '@/components/MokokoSeedLocations.vue';
+import { mapActions, mapState } from "vuex";
 export default {
   name: 'MokokoSeeds',
   components: {
@@ -482,6 +61,7 @@ export default {
   },
   data: function () {
     return {
+      regionsData,
       rethramisData,
       yudiaData,
       westLuterraData,
@@ -491,13 +71,21 @@ export default {
     };
   },
   props: {},
-  computed: {},
+  computed: {
+    ...mapState(['currentRegion'])
+  },
   methods: {
+    ...mapActions({
+      setRegion: "setRegion"
+    }),
     getLocation(location) {
       console.log(location);
       this.selectedLocation = location;
     },
   },
+  mounted() {
+    this.setRegion('Rethramis');
+  }
 };
 </script>
 
@@ -509,5 +97,14 @@ export default {
 }
 .text-info {
   font-weight: normal !important;
+}
+.text-purple:hover {
+  background-color: #403459 !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.active-purple {
+  background-color: #403459 !important;
+  font-weight: bold;
 }
 </style>

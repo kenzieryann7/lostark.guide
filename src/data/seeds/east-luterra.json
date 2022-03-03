@@ -449,6 +449,7 @@
         "label": "Croconys Seashore",
         "seeds": 18,
         "type": "Field",
+        "map": "croconysSeashore.png",
         "instructions": [
             {
                 "id": 1,
@@ -562,14 +563,56 @@
         "label": "Stormcry Grotto",
         "seeds": 12,
         "type": "Dungeon",
+        "note": "You have to kill all bats and slimes in the dungeon to access the 3 Mokoko Seeds in the middle of the map.",
+        "map": "stormcryGrotto.png",
         "instructions": [
             {
                 "id": 1,
-                "description": ""
+                "description": "The first Mokoko Seed is located at the end of the wooden ledge, near the telescope."
             },
             {
                 "id": 2,
-                "description": ""
+                "description": "You can find this Mokoko Seed at the end of the path to the right near some gold and chests."
+            },
+            {
+                "id": 3,
+                "description": "There are two Mokoko Seeds at this location. In this little nook, you will see some sort of cave entrance. Once you go through it, you will see one seed on the ground in front of the tent. The second seed is directly across from the last under the waterfall."
+            },
+            {
+                "id": 4,
+                "description": "See #3."
+            },
+            {
+                "id": 5,
+                "description": "This Mokoko Seed can be found at the very end of this path on the wooden dock. Make sure you get this seed before continuing as you will not be able to go back to get it without doing the dungeon again."
+            },
+            {
+                "id": 6,
+                "description": "You can find this seed at the end of this path to the right. You will see it to the right of the table."
+            },
+            {
+                "id": 7,
+                "description": "You can find 2 Mokoko Seeds at this location. To the left of the path you should be able to jump down. Go to the end on to the ship and you should see the two seeds."
+            },
+            {
+                "id": 8,
+                "description": "See #7."
+            },
+            {
+                "id": 9,
+                "description": "This seed is located at the end of the path."
+            },
+            {
+                "id": 10,
+                "description": "There are 3 seeds at this location. To open the passage way, you need to kill all bats and slimes in the dungeon. Before you climb up the wooden tower to the boss, go back to the middle of the map. All the gold and riches should be gone so you can go through. Keep going straight till you hit a large room. The last 3 Mokoko Seeds are in this room."
+            },
+            {
+                "id": 11,
+                "description": "See #10."
+            },
+            {
+                "id": 12,
+                "description": "See #10."
             }
         ]
     }

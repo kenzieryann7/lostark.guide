@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "region": "Rethramis"
+    },
+    {
+        "id": 1,
+        "region": "Yudia"
+    },
+    {
+        "id": 2,
+        "region": "West Luterra"
+    },
+    {
+        "id": 3,
+        "region": "East Luterra"
+    },
+    {
+        "id": 4,
+        "region": "Anikka"
+    },
+    {
+        "id": 5,
+        "region": "Arthetine"
+    },
+    {
+        "id": 6,
+        "region": "North Vern"
+    },
+    {
+        "id": 7,
+        "region": "Shushire"
+    },
+    {
+        "id": 8,
+        "region": "Rohendel"
+    },
+    {
+        "id": 9,
+        "region": "Yorn"
+    },
+    {
+        "id": 10,
+        "region": "Feiton"
+    },
+    {
+        "id": 11,
+        "region": "Punika"
+    }
+]
